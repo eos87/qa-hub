@@ -21,12 +21,17 @@ function walk(dir) {
   return out;
 }
 
-function shaOf(repoRoot) {
-  try {
-    return execFileSync('git', ['-C', repoRoot, 'rev-parse', 'HEAD'], {encoding: 'utf8'}).trim();
-  } catch {
-    return 'HEAD';
+// Pin GitHub links to a pushed commit. Locally HEAD may be an unmerged
+// annotation branch, so prefer the remote-tracking branch; in CI (detached
+// checkout of the branch) origin/<branch> is absent and HEAD is the real tip.
+function shaOf(repoRoot, branch) {
+  const refs = [branch && `origin/${branch}`, 'HEAD'].filter(Boolean);
+  for (const ref of refs) {
+    try {
+      return execFileSync('git', ['-C', repoRoot, 'rev-parse', ref], {encoding: 'utf8'}).trim();
+    } catch {}
   }
+  return 'HEAD';
 }
 
 // Nearest enclosing test()/test.describe() at or above the annotation line.
@@ -49,7 +54,7 @@ export function parseAnnotations() {
       console.warn(`[parse] repo not found, skipping: ${root}`);
       continue;
     }
-    repos[r.name] = {sha: shaOf(root), owner: r.owner, repo: r.repo};
+    repos[r.name] = {sha: shaOf(root, r.branch), owner: r.owner, repo: r.repo};
     const specRoot = path.join(root, r.specDir);
     if (!fs.existsSync(specRoot)) continue;
     for (const file of walk(specRoot)) {

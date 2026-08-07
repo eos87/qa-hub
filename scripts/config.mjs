@@ -19,6 +19,7 @@ export const REPOS = [
     repo: 'superdesk-client-core',
     dir: 'superdesk-client-core',
     specDir: 'e2e/client/playwright',
+    branch: 'develop',
   },
   {
     name: 'planning',
@@ -26,6 +27,7 @@ export const REPOS = [
     repo: 'superdesk-planning',
     dir: 'superdesk-planning',
     specDir: 'e2e/playwright',
+    branch: 'develop',
   },
 ];
 
