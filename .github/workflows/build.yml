@@ -1,0 +1,53 @@
+name: Build coverage dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'   # Mondays 06:00 UTC: one clean weekly history point
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-dashboard
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout hub
+        uses: actions/checkout@v4
+
+      - name: Checkout superdesk-client-core
+        uses: actions/checkout@v4
+        with:
+          repository: superdesk/superdesk-client-core
+          path: repos/superdesk-client-core
+          fetch-depth: 1
+
+      - name: Checkout superdesk-planning
+        uses: actions/checkout@v4
+        with:
+          repository: superdesk/superdesk-planning
+          path: repos/superdesk-planning
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build dashboard
+        run: node scripts/build.mjs
+
+      - name: Commit regenerated dashboard
+        run: |
+          if [[ -n "$(git status --porcelain index.html data/coverage.json data/history.jsonl)" ]]; then
+            git config user.name "qa-hub-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add index.html data/coverage.json data/history.jsonl
+            git commit -m "Update coverage dashboard ($(date -u +%F)) [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi

@@ -1,0 +1,37 @@
+name: Refresh Confluence registry
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5 * * 1'   # Mondays 05:30 UTC, before the dashboard build
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pull Confluence tree
+        env:
+          CONFLUENCE_SITE: sofab.atlassian.net
+          CONFLUENCE_EMAIL: ${{ secrets.CONFLUENCE_EMAIL }}
+          CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
+        run: node scripts/refresh-confluence.mjs
+
+      - name: Commit updated registry
+        run: |
+          if [[ -n "$(git status --porcelain data/confluence-cases.json)" ]]; then
+            git config user.name "qa-hub-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/confluence-cases.json
+            git commit -m "Refresh Confluence registry ($(date -u +%F)) [skip ci]"
+            git push
+          else
+            echo "Registry unchanged."
+          fi

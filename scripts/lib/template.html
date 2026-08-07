@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Superdesk QA Automation Coverage</title>
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--border:#30363d;--fg:#e6edf3;--mut:#8b949e;--accent:#2f81f7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1280px;margin:0 auto;padding:32px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mut);font-size:13px;margin-bottom:28px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:44px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px}
+.card .big{font-size:30px;font-weight:700;line-height:1.1}
+.card .lbl{color:var(--mut);font-size:12px;margin-top:4px}
+.card small{color:var(--mut);font-weight:400;font-size:14px}
+.bar{display:flex;height:26px;border-radius:6px;overflow:hidden;border:1px solid var(--border);margin-bottom:8px}
+.bar div{height:100%;cursor:default;transition:filter .1s}
+.bar div:hover{filter:brightness(1.25)}
+#tip{position:fixed;pointer-events:none;z-index:80;background:#1c2230;border:1px solid var(--border);border-radius:6px;padding:7px 11px;font-size:12px;color:var(--fg);box-shadow:0 6px 18px rgba(0,0,0,.45);white-space:nowrap;opacity:0;transition:opacity .08s;transform:translate(-50%,-120%)}
+#tip b{font-weight:600}#tip .pc{color:var(--accent);font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--mut);margin-bottom:44px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.dot{width:10px;height:10px;border-radius:2px;display:inline-block}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+.controls input,.controls select{background:var(--panel);border:1px solid var(--border);color:var(--fg);border-radius:6px;padding:7px 10px;font-size:13px}
+.controls input[type=search]{min-width:240px;flex:1}
+.chip{cursor:pointer;border:1px solid var(--border);background:var(--panel);color:var(--fg);border-radius:20px;padding:5px 12px;font-size:12px;user-select:none}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+th{position:sticky;top:0;background:var(--bg);cursor:pointer;white-space:nowrap;color:var(--mut);font-weight:600}
+th:hover{color:var(--fg)}
+tr:hover td{background:#11161d}
+.badge{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600;color:#fff;white-space:nowrap}
+.sec{color:var(--mut);font-size:12px}
+.notes{color:var(--mut);font-size:12px;max-width:380px}
+.spec{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+.muted{color:var(--mut)}
+.count{color:var(--mut);font-size:12px;margin:10px 0 18px}
+footer{color:var(--mut);font-size:12px;margin-top:30px;border-top:1px solid var(--border);padding-top:14px}
+.lensbtns{display:inline-flex;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.lensbtns button{background:var(--panel);color:var(--fg);border:0;padding:6px 12px;cursor:pointer;font-size:12px}
+.lensbtns button.on{background:var(--accent);color:#fff}
+</style></head>
+<body><div class="wrap">
+<h1>Superdesk QA Automation Coverage</h1>
+<div class="sub">Confluence "Superdesk QA Tests" tree mapped to Playwright e2e specs. Pinned to client-core <code>__SHACC__</code> / planning <code>__SHAPL__</code>. Generated __GENERATED__.</div>
+
+<div class="cards" id="cards"></div>
+
+<div style="margin-bottom:6px"><b>Coverage breakdown</b>
+&nbsp;<span class="muted">counting:</span>
+&nbsp;<span class="lensbtns"><button data-lens="manual" class="on">All test cases (373)</button><button data-lens="docs">Documented only (270)</button></span></div>
+<div class="sub" id="lensNote" style="margin-bottom:8px"></div>
+<div class="bar" id="bar"></div>
+<div id="tip"></div>
+<div class="legend" id="legend"></div>
+
+<div id="progressWrap" style="margin-bottom:44px">
+  <div style="margin-bottom:6px"><b>Progress over time</b> <span class="muted" id="progressSub"></span></div>
+  <div id="progress"></div>
+</div>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="Search title, section, spec, notes...">
+  <select id="section"><option value="">All sections</option></select>
+  <label class="muted"><input type="checkbox" id="hideSections" checked> hide section/folder nodes</label>
+</div>
+<div class="controls" id="chips"></div>
+<div class="count" id="count"></div>
+
+<table><thead><tr>
+<th data-k="title">Test case (Confluence) &#8597;</th>
+<th data-k="section">Section &#8597;</th>
+<th data-k="status">Status &#8597;</th>
+<th data-k="conf">Level &#8597;</th>
+<th data-k="spec_label">Spec (GitHub) &#8597;</th>
+<th data-k="notes">Notes</th>
+</tr></thead><tbody id="tb"></tbody></table>
+
+<footer>
+Single static file, no server. Regenerate from the audit data to refresh.
+"Automated - undocumented" = a spec exists but the Confluence page is empty (likely being run manually for no reason).
+Status reflects the audit, not live CI pass/fail (wiring live results is a later step).
+</footer>
+</div>
+<script>
+const ROWS=__ROWS__, M=__METRICS__, HISTORY=__HISTORY__;
+const GROUPS={auto:'#1a7f37',manual:'#cf222e',section:'#8250df'};
+// status -> color from rows
+const STATUSES=[
+ ['automated_complete','Automated - complete','#1a7f37'],
+ ['not_documented_code_exists','Automated - undocumented','#0969da'],
+ ['automated_partial','Automated - partial','#bf8700'],
+ ['not_automated','Manual - documented','#cf222e'],
+ ['not_documented','Manual - empty page','#6e7781'],
+ ['automated_stale_or_unverified','Stale marking','#cf222e'],
+ ['container','Section / folder','#8250df'],
+];
+const COLOR=Object.fromEntries(STATUSES.map(s=>[s[0],s[2]]));
+const LABEL=Object.fromEntries(STATUSES.map(s=>[s[0],s[1]]));
+
+// ---- summary cards ----
+const autoAny=M.complete+M.partial+M.undoc_code;
+const manualAny=M.manual_doc+M.manual_empty+M.stale;
+const realisticLow=Math.round((M.complete+0.5*M.partial+0.75*M.undoc_code)/M.real*100);
+const realisticHigh=Math.round((M.complete+0.5*M.partial+M.undoc_code)/M.real*100);
+document.getElementById('cards').innerHTML=[
+ ['~'+realisticLow+'-'+realisticHigh+'%','Realistic automation','partial weighted'],
+ [Math.round(autoAny/M.real*100)+'%','Has any automation','<small>'+autoAny+' / '+M.real+' cases</small>'],
+ [Math.round(manualAny/M.real*100)+'%','Still needs a human','<small>'+manualAny+' / '+M.real+' cases</small>'],
+ [M.undoc_code,'Automated but undocumented','<small>quick reconcile wins</small>'],
+ [M.manual_doc,'Documented, not automated','<small>the backlog</small>'],
+].map(c=>`<div class="card"><div class="big">${c[0]}</div><div class="lbl">${c[1]}</div><div class="lbl">${c[2]||''}</div></div>`).join('');
+
+// ---- coverage bar (two lenses) ----
+function drawBar(lens){
+ // manual lens denom = real (373); docs lens denom = documented only
+ let segs;
+ if(lens==='manual'){
+   segs=[['automated_complete',M.complete],['not_documented_code_exists',M.undoc_code],
+         ['automated_partial',M.partial],['not_automated',M.manual_doc],
+         ['not_documented',M.manual_empty],['automated_stale_or_unverified',M.stale]];
+ }else{
+   const doc=M.complete+M.partial+M.manual_doc+M.stale;
+   segs=[['automated_complete',M.complete],['automated_partial',M.partial],
+         ['not_automated',M.manual_doc],['automated_stale_or_unverified',M.stale]];
+ }
+ const tot=segs.reduce((a,s)=>a+s[1],0);
+ const denomNote = 'of '+tot+' test cases';
+ document.getElementById('lensNote').textContent = lens==='manual'
+   ? 'Every test case QA owns (' + tot + '), including title-only pages still run by hand.'
+   : 'Only the ' + tot + ' cases that have written steps in Confluence (title-only pages excluded).';
+ document.getElementById('bar').innerHTML=segs.filter(s=>s[1]).map(s=>{
+   const pc=(s[1]/tot*100);
+   return `<div style="width:${pc}%;background:${COLOR[s[0]]}" data-l="${LABEL[s[0]]}" data-c="${s[1]}" data-p="${pc.toFixed(1)}"></div>`;
+ }).join('');
+ document.getElementById('legend').innerHTML=segs.filter(s=>s[1]).map(s=>
+   `<span><i class="dot" style="background:${COLOR[s[0]]}"></i>${LABEL[s[0]]} (${s[1]}, ${(s[1]/tot*100).toFixed(0)}%)</span>`).join('');
+ // tooltip wiring
+ const tip=document.getElementById('tip');
+ document.querySelectorAll('#bar div').forEach(d=>{
+   d.onmousemove=e=>{
+     tip.innerHTML=`<b>${d.dataset.l}</b> &nbsp;<span class="pc">${d.dataset.p}%</span><br><span class="muted">${d.dataset.c} ${denomNote}</span>`;
+     tip.style.left=e.clientX+'px'; tip.style.top=e.clientY+'px'; tip.style.opacity='1';
+   };
+   d.onmouseleave=()=>{tip.style.opacity='0';};
+ });
+}
+document.querySelectorAll('.lensbtns button').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.lensbtns button').forEach(x=>x.classList.remove('on'));
+ b.classList.add('on'); drawBar(b.dataset.lens);
+});
+drawBar('manual');
+
+// ---- progress over time (from history.jsonl) ----
+function drawProgress(){
+ const el=document.getElementById('progress');
+ const pts=(HISTORY||[]).filter(h=>h && h.real).map(h=>({
+   date:h.date,
+   auto: (h.complete+h.partial+h.undoc_code)/h.real*100,
+   full: h.complete/h.real*100,
+ }));
+ if(pts.length<2){
+   document.getElementById('progressSub').textContent='(needs at least two data points; one per build)';
+   el.innerHTML='<div class="muted" style="padding:10px 0">No trend yet. Each hub build appends a point.</div>';
+   return;
+ }
+ document.getElementById('progressSub').textContent='= % of real cases with any automation (top line) and fully automated (lower line)';
+ const W=Math.min(1180, el.clientWidth||900), H=180, PadL=34, PadR=12, PadT=12, PadB=26;
+ const n=pts.length;
+ const x=i=> PadL + i*(W-PadL-PadR)/(n-1);
+ const y=v=> PadT + (100-v)*(H-PadT-PadB)/100;
+ const line=(key,color)=>{
+   const d=pts.map((p,i)=>`${i?'L':'M'}${x(i).toFixed(1)},${y(p[key]).toFixed(1)}`).join(' ');
+   const dots=pts.map((p,i)=>`<circle cx="${x(i).toFixed(1)}" cy="${y(p[key]).toFixed(1)}" r="3" fill="${color}"><title>${p.date}: ${p[key].toFixed(1)}%</title></circle>`).join('');
+   return `<path d="${d}" fill="none" stroke="${color}" stroke-width="2"/>${dots}`;
+ };
+ const grid=[0,25,50,75,100].map(v=>`<line x1="${PadL}" y1="${y(v)}" x2="${W-PadR}" y2="${y(v)}" stroke="#30363d" stroke-width="1"/><text x="4" y="${y(v)+3}" fill="#8b949e" font-size="10">${v}%</text>`).join('');
+ const xlabels=pts.map((p,i)=> (i===0||i===n-1||i===Math.floor(n/2)) ? `<text x="${x(i)}" y="${H-8}" fill="#8b949e" font-size="10" text-anchor="middle">${p.date.slice(5)}</text>`:'').join('');
+ el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="border:1px solid var(--border);border-radius:8px;background:var(--panel)">${grid}${line('auto','#1a7f37')}${line('full','#2f81f7')}${xlabels}</svg>`;
+}
+drawProgress();
+window.addEventListener('resize', drawProgress);
+
+// ---- filters ----
+const secSel=document.getElementById('section');
+[...new Set(ROWS.map(r=>r.section).filter(Boolean))].sort().forEach(s=>{
+ const o=document.createElement('option');o.value=s;o.textContent=s;secSel.appendChild(o);});
+const chipWrap=document.getElementById('chips');
+const active=new Set();
+STATUSES.forEach(s=>{
+ const el=document.createElement('span');el.className='chip';el.textContent=LABEL[s[0]];
+ el.style.borderColor=s[2];
+ el.onclick=()=>{el.classList.toggle('on');active.has(s[0])?active.delete(s[0]):active.add(s[0]);render();};
+ el.dataset.k=s[0];chipWrap.appendChild(el);
+});
+
+let sortK='title',sortDir=1;
+document.querySelectorAll('th').forEach(th=>th.onclick=()=>{
+ const k=th.dataset.k;if(!k)return;
+ if(sortK===k)sortDir*=-1;else{sortK=k;sortDir=1;}render();});
+
+function render(){
+ const q=document.getElementById('q').value.toLowerCase();
+ const sec=secSel.value;
+ const hideSec=document.getElementById('hideSections').checked;
+ let r=ROWS.filter(x=>{
+  if(hideSec && x.cls==='container')return false;
+  if(active.size && !active.has(x.cls))return false;
+  if(sec && x.section!==sec)return false;
+  if(q){const hay=(x.title+' '+x.section+' '+(x.spec_label||'')+' '+x.notes).toLowerCase();if(!hay.includes(q))return false;}
+  return true;
+ });
+ r.sort((a,b)=>{const A=(a[sortK]||'').toString().toLowerCase(),B=(b[sortK]||'').toString().toLowerCase();return A<B?-sortDir:A>B?sortDir:0;});
+ document.getElementById('count').textContent=r.length+' of '+ROWS.length+' rows';
+ document.getElementById('tb').innerHTML=r.map(x=>{
+  const spec = (x.group==='auto' && x.spec_url)
+     ? `<a class="spec" href="${x.spec_url}" target="_blank">${x.spec_label}</a>`
+     : '<span class="muted">-</span>';
+  return `<tr>
+   <td><a href="${x.conf_url}" target="_blank">${esc(x.title)}</a>${x.marked?' <span class="muted" title="title marked AUTOMATED">&#9881;</span>':''}</td>
+   <td class="sec">${esc(x.section)}</td>
+   <td><span class="badge" style="background:${COLOR[x.cls]}">${LABEL[x.cls]}</span></td>
+   <td class="muted">${x.conf||''}</td>
+   <td>${spec}</td>
+   <td class="notes">${esc(x.notes)}</td></tr>`;
+ }).join('');
+}
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+document.getElementById('q').oninput=render;
+secSel.onchange=render;
+document.getElementById('hideSections').onchange=render;
+render();
+</script></body></html>

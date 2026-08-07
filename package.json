@@ -1,0 +1,11 @@
+{
+  "name": "qa-hub",
+  "private": true,
+  "description": "Superdesk QA automation coverage dashboard, generated from spec annotations + a Confluence case registry",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "parse": "node scripts/parse-annotations.mjs",
+    "refresh": "node scripts/refresh-confluence.mjs"
+  }
+}
