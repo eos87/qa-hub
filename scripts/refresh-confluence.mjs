@@ -132,9 +132,43 @@ const cases = ids.map((id, k) => {
   };
 }).sort((a, b) => (a.section + a.title).localeCompare(b.section + b.title));
 
-fs.writeFileSync(PATHS.registry, JSON.stringify({
-  source: 'confluence', space: 'SET', root: ROOT,
-  refreshed: new Date().toISOString().slice(0, 10),
-  cases,
-}, null, 1));
-console.error(`[refresh] wrote ${cases.length} cases to data/confluence-cases.json`);
+// Compare against the previously committed registry: skip a no-op, report a real
+// change, and refuse to publish a suspiciously large one (the signature of a logic
+// or API regression, which is what caused silent has_body churn before).
+let prevObj = {cases: [], refreshed: null};
+try { prevObj = JSON.parse(fs.readFileSync(PATHS.registry, 'utf8')); } catch {}
+const prev = prevObj.cases || [];
+const pm = new Map(prev.map((c) => [c.id, c]));
+const nm = new Map(cases.map((c) => [c.id, c]));
+const added = cases.filter((c) => !pm.has(c.id));
+const removed = prev.filter((c) => !nm.has(c.id));
+const flips = cases.filter((c) => pm.has(c.id) && pm.get(c.id).has_body !== c.has_body);
+const conts = cases.filter((c) => pm.has(c.id) && pm.get(c.id).is_container !== c.is_container);
+const titles = cases.filter((c) => pm.has(c.id) && pm.get(c.id).title !== c.title);
+const unchanged = prev.length && JSON.stringify(prev) === JSON.stringify(cases);
+
+const head = `${cases.length} cases | changes vs committed: +${added.length}/-${removed.length} cases, ${flips.length} has_body, ${conts.length} container, ${titles.length} title`;
+console.error(`[refresh] ${head}`);
+for (const c of flips.slice(0, 40)) console.error(`   has_body ${pm.get(c.id).has_body} -> ${c.has_body}  ${c.title}`);
+
+if (process.env.GITHUB_STEP_SUMMARY) {
+  const md = ['### Confluence registry refresh', '', `- ${head}`, ''];
+  if (unchanged) md.push('_No changes; registry left untouched._');
+  else if (flips.length) md.push('has_body changes:', ...flips.slice(0, 40).map((c) => `- \`${pm.get(c.id).has_body} -> ${c.has_body}\` ${c.title}`));
+  fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md.join('\n') + '\n');
+}
+
+if (unchanged) {
+  console.error('[refresh] no changes; registry left untouched (nothing to commit)');
+} else {
+  if (prev.length && (removed.length > 15 || flips.length > 60) && !process.env.FORCE) {
+    console.error('[refresh] ABORT: change larger than expected (possible regression or API change). Nothing written. Re-run with FORCE=1 if the change is real.');
+    process.exit(1);
+  }
+  fs.writeFileSync(PATHS.registry, JSON.stringify({
+    source: 'confluence', space: 'SET', root: ROOT,
+    refreshed: new Date().toISOString().slice(0, 10),
+    cases,
+  }, null, 1));
+  console.error(`[refresh] wrote ${cases.length} cases to data/confluence-cases.json`);
+}
