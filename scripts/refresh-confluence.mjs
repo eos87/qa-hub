@@ -44,9 +44,29 @@ async function pool(items, limit, fn) {
   return res;
 }
 
-function textLen(page) {
-  const raw = page.body?.storage?.value || '';
-  return raw.replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/g, ' ').replace(/\s+/g, ' ').trim().length;
+// A page "has body" when it carries real prose, not just structure/navigation.
+// Structural macros (pagetree/children/toc/jira) and links are stripped so that
+// section pages that only list child pages or link out do not count as documented.
+// Verified against a 47-page ground-truth sample; ~30 chars of remaining prose is
+// the boundary between a real scenario/description and a bare note or redirect.
+const HAS_BODY_MIN = 30;
+const STRUCT = 'pagetree|children|detailssummary|toc|excerpt-include|include|content-report-table|contentbylabel|jira';
+
+function proseLen(page) {
+  let s = page.body?.storage?.value || '';
+  if (!s) return 0;
+  s = s.replace(new RegExp(`<ac:structured-macro[^>]*ac:name="(?:${STRUCT})"[^>]*>[\\s\\S]*?</ac:structured-macro>`, 'g'), ' ');
+  s = s.replace(new RegExp(`<ac:structured-macro[^>]*ac:name="(?:${STRUCT})"[^>]*/>`, 'g'), ' ');
+  s = s.replace(/<ac:link\b[^>]*>[\s\S]*?<\/ac:link>/g, ' ');
+  s = s.replace(/<ac:image\b[^>]*>[\s\S]*?<\/ac:image>/g, ' ');
+  s = s.replace(/<ri:[^>]+\/?>/g, ' ');
+  s = s.replace(/<[^>]+>/g, ' ');
+  s = s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+       .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ')
+       .replace(/&[a-z]+;/g, ' ');
+  s = s.replace(/\s+/g, ' ').trim();
+  for (const b of ['Test cases', 'Related documentation', 'Test Cases']) s = s.split(b).join('');
+  return s.trim().length;
 }
 
 const nodes = new Map();   // id -> {id, title, parent}
@@ -106,7 +126,7 @@ const cases = ids.map((id, k) => {
     title: n.title,
     section: sectionOf(id),
     url: `https://${SITE}/wiki/spaces/SET/pages/${id}`,
-    has_body: body ? textLen(body) >= 40 : false,
+    has_body: body ? proseLen(body) >= HAS_BODY_MIN : false,
     is_container: (children.get(id) || []).length > 0,
     marked: /AUTOMAT/i.test(n.title) || n.title.includes('\u{1F916}'),
   };
