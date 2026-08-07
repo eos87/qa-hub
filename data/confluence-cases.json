@@ -720,7 +720,7 @@
    "title": "Links in Body Editor3 (automated) - skipping 27.10.25",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759491",
-   "has_body": true,
+   "has_body": false,
    "is_container": true,
    "marked": true
   },
@@ -783,7 +783,7 @@
    "title": "Remove format",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669375",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -891,7 +891,7 @@
    "title": "Undo / Redo",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/10307010593",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -972,7 +972,7 @@
    "title": "Content profiles (Alice)",
    "section": "Content profiles (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524904",
-   "has_body": true,
+   "has_body": false,
    "is_container": true,
    "marked": false
   },
@@ -1125,7 +1125,7 @@
    "title": "Publish article that uses new custom fields in CP (Mikayel) - IMPORTANT for AUTOMATION",
    "section": "Customer-specific",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443851",
-   "has_body": false,
+   "has_body": true,
    "is_container": false,
    "marked": true
   },
@@ -1962,7 +1962,7 @@
    "title": "Desks and stages",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524822",
-   "has_body": true,
+   "has_body": false,
    "is_container": true,
    "marked": false
   },
@@ -3600,7 +3600,7 @@
    "title": "Featured stories",
    "section": "Planning module",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835163",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -3942,7 +3942,7 @@
    "title": "User privileges (pass 02.11)",
    "section": "User management",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834241",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -4212,7 +4212,7 @@
    "title": "Sent view in Personal space",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443786",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
