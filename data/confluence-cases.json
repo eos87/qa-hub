@@ -2,8 +2,179 @@
  "source": "confluence",
  "space": "SET",
  "root": "1308524760",
- "snapshot_note": "Seeded from the 2026-06-25 audit (recovered from dashboard snapshot). Refresh via scripts/refresh-confluence.mjs.",
+ "refreshed": "2026-08-07",
  "cases": [
+  {
+   "id": "1310851139",
+   "title": "🤖 Correct item (AUTOMATED)",
+   "section": "🤖 Corrections (Alice) (AUTOMATED)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851139",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1327759506",
+   "title": "🤖 Corrections (Alice) (AUTOMATED)",
+   "section": "🤖 Corrections (Alice) (AUTOMATED)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759506",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1344443358",
+   "title": "🤖 Corrections workflow (AUTOMATED)",
+   "section": "🤖 Corrections (Alice) (AUTOMATED)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443358",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524925",
+   "title": "🤖 Check item history (AUTOMATED)",
+   "section": "🤖 Item versions (Mikayel) (AUTOMATED)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524925",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524931",
+   "title": "🤖 Compare versions (AUTOMATED)",
+   "section": "🤖 Item versions (Mikayel) (AUTOMATED)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524931",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524923",
+   "title": "🤖 Item versions (Mikayel) (AUTOMATED)",
+   "section": "🤖 Item versions (Mikayel) (AUTOMATED)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524923",
+   "has_body": true,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1308524929",
+   "title": "🤖 Revert to a previous version",
+   "section": "🤖 Item versions (Mikayel) (AUTOMATED)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524929",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834311",
+   "title": "🤖 Add a new (automated)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834311",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834313",
+   "title": "🤖 Add item to highlight list (automated)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834313",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834315",
+   "title": "🤖 Create highlights package (automated)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834315",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834319",
+   "title": "🤖 Export highlights (automated)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834319",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524779",
+   "title": "🤖 Highlights (Alice) (AUTOMATED)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524779",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1311834330",
+   "title": "🤖 Multiedit (AUTOMATED)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834330",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834317",
+   "title": "🤖 Publish highlights package (automated)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834317",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524834",
+   "title": "🤖 Send item to another desk (AUTOMATED)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524834",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524832",
+   "title": "🤖 Send item to another stage (AUTOMATED)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524832",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834340",
+   "title": "🤖 Sending items between desks (PASS) (Mikayel) (AUTOMATED)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834340",
+   "has_body": true,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1311834309",
+   "title": "🤖 Test desk-specific highlights (automated)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834309",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1309835269",
+   "title": "🤖Templates (Alice) (AUTOMATED)",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1309835269",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
   {
    "id": "1311835104",
    "title": "Add new schedule",
@@ -37,7 +208,7 @@
    "section": "Already automated",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835102",
    "has_body": false,
-   "is_container": false,
+   "is_container": true,
    "marked": true
   },
   {
@@ -72,7 +243,7 @@
    "title": "Edit template",
    "section": "Already automated",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835108",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -122,114 +293,6 @@
    "marked": false
   },
   {
-   "id": "1311834311",
-   "title": "\ud83e\udd16 Add a new (automated)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834311",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311834313",
-   "title": "\ud83e\udd16 Add item to highlight list (automated)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834313",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311834315",
-   "title": "\ud83e\udd16 Create highlights package (automated)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834315",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311834319",
-   "title": "\ud83e\udd16 Export highlights (automated)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834319",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1308524779",
-   "title": "\ud83e\udd16 Highlights (Alice) (AUTOMATED)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524779",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
-   "id": "1311834330",
-   "title": "\ud83e\udd16 Multiedit (AUTOMATED)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834330",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311834317",
-   "title": "\ud83e\udd16 Publish highlights package (automated)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834317",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1308524834",
-   "title": "\ud83e\udd16 Send item to another desk (AUTOMATED)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524834",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1308524832",
-   "title": "\ud83e\udd16 Send item to another stage (AUTOMATED)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524832",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311834340",
-   "title": "\ud83e\udd16 Sending items between desks (PASS) (Mikayel) (AUTOMATED)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834340",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
-   "id": "1311834309",
-   "title": "\ud83e\udd16 Test desk-specific highlights (automated)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834309",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1309835269",
-   "title": "\ud83e\udd16Templates (Alice) (AUTOMATED)",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1309835269",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
    "id": "1311835278",
    "title": "Add new filter condition",
    "section": "Archived test cases",
@@ -243,7 +306,7 @@
    "title": "Archived test cases",
    "section": "Archived test cases",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/10941464615",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -298,7 +361,7 @@
    "section": "Archived test cases",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443499",
    "has_body": true,
-   "is_container": false,
+   "is_container": true,
    "marked": false
   },
   {
@@ -338,19 +401,19 @@
    "marked": false
   },
   {
-   "id": "1344443696",
-   "title": "Users (Nareg and ...)",
+   "id": "1344445104",
+   "title": "Users - has one FAIL case",
    "section": "Archived test cases",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443696",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344445104",
    "has_body": true,
    "is_container": false,
    "marked": false
   },
   {
-   "id": "1344445104",
-   "title": "Users - has one FAIL case",
+   "id": "1344443696",
+   "title": "Users (Nareg and ...)",
    "section": "Archived test cases",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344445104",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443696",
    "has_body": true,
    "is_container": false,
    "marked": false
@@ -383,6 +446,15 @@
    "marked": false
   },
   {
+   "id": "1355055798",
+   "title": "iMatrics",
+   "section": "Authoring widgets (Nareg) - has failing test inside",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1355055798",
+   "has_body": false,
+   "is_container": false,
+   "marked": false
+  },
+  {
    "id": "1310294120",
    "title": "Info button",
    "section": "Authoring widgets (Nareg) - has failing test inside",
@@ -392,19 +464,19 @@
    "marked": false
   },
   {
-   "id": "1335328787",
-   "title": "Macros (imperial units to metric - CP)",
+   "id": "1344444328",
+   "title": "Macros - USD to CAD (Mikayel) - FAIL",
    "section": "Authoring widgets (Nareg) - has failing test inside",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1335328787",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444328",
    "has_body": true,
    "is_container": false,
    "marked": false
   },
   {
-   "id": "1344444328",
-   "title": "Macros - USD to CAD (Mikayel) - FAIL",
+   "id": "1335328787",
+   "title": "Macros (imperial units to metric - CP)",
    "section": "Authoring widgets (Nareg) - has failing test inside",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444328",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1335328787",
    "has_body": true,
    "is_container": false,
    "marked": false
@@ -437,13 +509,31 @@
    "marked": false
   },
   {
-   "id": "1355055798",
-   "title": "iMatrics",
-   "section": "Authoring widgets (Nareg) - has failing test inside",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1355055798",
-   "has_body": false,
+   "id": "1308524917",
+   "title": "🤖 Add embed (AUTOMATED)",
+   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524917",
+   "has_body": true,
    "is_container": false,
-   "marked": false
+   "marked": true
+  },
+  {
+   "id": "1327759385",
+   "title": "🤖 Edit embed (AUTOMATED)",
+   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759385",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1327759390",
+   "title": "🤖 Remove embed (AUTOMATED)",
+   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759390",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
   },
   {
    "id": "1313669234",
@@ -462,15 +552,6 @@
    "has_body": true,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1308524917",
-   "title": "Add embed (AUTOMATED)",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524917",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1308524935",
@@ -527,6 +608,15 @@
    "marked": false
   },
   {
+   "id": "10542284955",
+   "title": "default value saved in templates Mikayel - PASS",
+   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/10542284955",
+   "has_body": false,
+   "is_container": false,
+   "marked": false
+  },
+  {
    "id": "1311834886",
    "title": "Delete annotation",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
@@ -561,15 +651,6 @@
    "has_body": true,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1327759385",
-   "title": "Edit embed (AUTOMATED)",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759385",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1311834931",
@@ -639,7 +720,7 @@
    "title": "Links in Body Editor3 (automated) - skipping 27.10.25",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759491",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": true
   },
@@ -698,15 +779,6 @@
    "marked": false
   },
   {
-   "id": "1327759390",
-   "title": "Remove embed (AUTOMATED)",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759390",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1313669375",
    "title": "Remove format",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
@@ -756,7 +828,7 @@
    "title": "Suggestions mode (Alice)",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1333690475",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -783,17 +855,8 @@
    "title": "Text formatting (Maja)",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524915",
-   "has_body": false,
-   "is_container": true,
-   "marked": false
-  },
-  {
-   "id": "1313669232",
-   "title": "Toggle Suggestions Mode button",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669232",
    "has_body": true,
-   "is_container": false,
+   "is_container": true,
    "marked": false
   },
   {
@@ -801,6 +864,15 @@
    "title": "Toggle formatting marks",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669377",
+   "has_body": true,
+   "is_container": false,
+   "marked": false
+  },
+  {
+   "id": "1313669232",
+   "title": "Toggle Suggestions Mode button",
+   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669232",
    "has_body": true,
    "is_container": false,
    "marked": false
@@ -842,15 +914,6 @@
    "marked": false
   },
   {
-   "id": "10542284955",
-   "title": "default value saved in templates Mikayel - PASS",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/10542284955",
-   "has_body": false,
-   "is_container": false,
-   "marked": false
-  },
-  {
    "id": "1311834891",
    "title": "Comments",
    "section": "Comments",
@@ -864,17 +927,8 @@
    "title": "Content expiry (Alice)",
    "section": "Content expiry (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444530",
-   "has_body": false,
-   "is_container": true,
-   "marked": false
-  },
-  {
-   "id": "1344444532",
-   "title": "Content expiry on Ingest",
-   "section": "Content expiry (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444532",
    "has_body": true,
-   "is_container": false,
+   "is_container": true,
    "marked": false
   },
   {
@@ -882,6 +936,15 @@
    "title": "Content expiry on desk level",
    "section": "Content expiry (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444534",
+   "has_body": true,
+   "is_container": false,
+   "marked": false
+  },
+  {
+   "id": "1344444532",
+   "title": "Content expiry on Ingest",
+   "section": "Content expiry (Alice)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444532",
    "has_body": true,
    "is_container": false,
    "marked": false
@@ -896,22 +959,22 @@
    "marked": false
   },
   {
+   "id": "1308524961",
+   "title": "🤖 Create new content profile  (Mikayel) - PASS 13.10 (AUTOMATED)",
+   "section": "Content profiles (Alice)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524961",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
    "id": "1308524904",
    "title": "Content profiles (Alice)",
    "section": "Content profiles (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524904",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
-  },
-  {
-   "id": "1308524961",
-   "title": "Create new content profile (Mikayel) - PASS 13.10 (AUTOMATED)",
-   "section": "Content profiles (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524961",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1311834564",
@@ -954,15 +1017,6 @@
    "title": "Custom (other) Datetime",
    "section": "Custom fields - Metadata management (Mikayel) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443801",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1344443811",
-   "title": "Custom URL",
-   "section": "Custom fields - Metadata management (Mikayel) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443811",
    "has_body": true,
    "is_container": false,
    "marked": false
@@ -1022,6 +1076,15 @@
    "marked": false
   },
   {
+   "id": "1344443811",
+   "title": "Custom URL",
+   "section": "Custom fields - Metadata management (Mikayel) - IMPORTANT for AUTOMATION",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443811",
+   "has_body": true,
+   "is_container": false,
+   "marked": false
+  },
+  {
    "id": "10815143953",
    "title": "Vocabularies",
    "section": "Custom fields - Metadata management (Mikayel) - IMPORTANT for AUTOMATION",
@@ -1062,7 +1125,7 @@
    "title": "Publish article that uses new custom fields in CP (Mikayel) - IMPORTANT for AUTOMATION",
    "section": "Customer-specific",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443851",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": true
   },
@@ -1098,7 +1161,7 @@
    "title": "Subscribers_ PASS",
    "section": "Define Publishing workflows (Mikayel) - BEING AUTOMATED SDESK-7561",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444319",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -1117,7 +1180,7 @@
    "section": "Dictionaries (Nareg)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835005",
    "has_body": true,
-   "is_container": false,
+   "is_container": true,
    "marked": false
   },
   {
@@ -1161,7 +1224,7 @@
    "title": "Dictionaries (Nareg)",
    "section": "Dictionaries (Nareg)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834992",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -1238,6 +1301,438 @@
    "marked": false
   },
   {
+   "id": "1311835054",
+   "title": "🤖 Add new custom date field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835054",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835062",
+   "title": "🤖 Add new custom embed field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835062",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835044",
+   "title": "🤖 Add new custom text field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835044",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834267",
+   "title": "🤖 Add new desk (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834267",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835070",
+   "title": "🤖 Add new related content field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835070",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835079",
+   "title": "🤖 Add new URL field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835079",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835040",
+   "title": "🤖 Add new vocabulary (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835040",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834375",
+   "title": "🤖 Content filters (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834375",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1310851153",
+   "title": "🤖 Create new article (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851153",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835031",
+   "title": "🤖 Custom date fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835031",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1311835033",
+   "title": "🤖 Custom embed fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835033",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1311835035",
+   "title": "🤖 Custom related content fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835035",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1311835029",
+   "title": "🤖 Custom text fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835029",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1311835037",
+   "title": "🤖 Custom URL fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835037",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1311835027",
+   "title": "🤖 Custom vocabularies (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835027",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1311834334",
+   "title": "🤖 Deleting desk (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834334",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1344443825",
+   "title": "🤖 Desk switching (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443825",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835241",
+   "title": "🤖 Duplicate article in place (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835241",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835243",
+   "title": "🤖 Duplicate article to another place (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835243",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1333690438",
+   "title": "🤖 Duplicate item (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1333690438",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1311835056",
+   "title": "🤖 Edit custom date field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835056",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835064",
+   "title": "🤖 Edit custom embed field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835064",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835046",
+   "title": "🤖 Edit custom text field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835046",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835072",
+   "title": "🤖 Edit related content field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835072",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835081",
+   "title": "🤖 Edit URL field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835081",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835042",
+   "title": "🤖 Edit vocabulary (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835042",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524853",
+   "title": "🤖 Fetch item (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524853",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835247",
+   "title": "🤖 Mark article for desk from the list view (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835247",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1315931715",
+   "title": "🤖 Mark for desk (Nareg) (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931715",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1315931717",
+   "title": "🤖 Mark open article for desk (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931717",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834383",
+   "title": "🤖 Publish Queue (Nareg) (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834383",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835058",
+   "title": "🤖 Remove custom date field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835058",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835066",
+   "title": "🤖 Remove custom embed field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835066",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835048",
+   "title": "🤖 Remove custom text field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835048",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835074",
+   "title": "🤖 Remove related content field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835074",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835083",
+   "title": "🤖 Remove URL field (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835083",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835060",
+   "title": "🤖 Search in custom date fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835060",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835068",
+   "title": "🤖 Search in custom embed fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835068",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835050",
+   "title": "🤖 Search in custom text fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835050",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835085",
+   "title": "🤖 Search in custom URL fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835085",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835076",
+   "title": "🤖 Search in related content fields (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835076",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835052",
+   "title": "🤖 Search in vocabularies (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835052",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1344443827",
+   "title": "🤖 Sending items between desks_ (PASS 20.10) (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443827",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524769",
+   "title": "🤖 Spike and Unspike (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524769",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1308524774",
+   "title": "🤖 Spike item (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524774",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524830",
+   "title": "🤖 Stages configuration (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524830",
+   "has_body": false,
+   "is_container": true,
+   "marked": true
+  },
+  {
+   "id": "1315931720",
+   "title": "🤖 Unmark item from desk (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931720",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311834144",
+   "title": "🤖 Unspike item (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834144",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
    "id": "1327759368",
    "title": "Add attachment",
    "section": "Full Functional testing samples",
@@ -1283,24 +1778,6 @@
    "marked": false
   },
   {
-   "id": "1311835079",
-   "title": "Add new URL field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835079",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835054",
-   "title": "Add new custom date field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835054",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1335328976",
    "title": "Add new custom datetime field",
    "section": "Full Functional testing samples",
@@ -1310,58 +1787,13 @@
    "marked": false
   },
   {
-   "id": "1311835062",
-   "title": "Add new custom embed field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835062",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835044",
-   "title": "Add new custom text field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835044",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311834267",
-   "title": "Add new desk (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834267",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1311835280",
    "title": "Add new filter",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835280",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1311835070",
-   "title": "Add new related content field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835070",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835040",
-   "title": "Add new vocabulary (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835040",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1310851191",
@@ -1427,15 +1859,6 @@
    "marked": false
   },
   {
-   "id": "1311834375",
-   "title": "Content filters (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834375",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1310851132",
    "title": "Create article with image in Feature media field",
    "section": "Full Functional testing samples",
@@ -1452,15 +1875,6 @@
    "has_body": false,
    "is_container": true,
    "marked": false
-  },
-  {
-   "id": "1310851153",
-   "title": "Create new article (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851153",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1310851155",
@@ -1499,24 +1913,6 @@
    "marked": false
   },
   {
-   "id": "1311835037",
-   "title": "Custom URL fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835037",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
-   "id": "1311835031",
-   "title": "Custom date fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835031",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
    "id": "1335328974",
    "title": "Custom datetime fields",
    "section": "Full Functional testing samples",
@@ -1524,15 +1920,6 @@
    "has_body": false,
    "is_container": true,
    "marked": false
-  },
-  {
-   "id": "1311835033",
-   "title": "Custom embed fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835033",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
   },
   {
    "id": "1311835025",
@@ -1544,33 +1931,6 @@
    "marked": false
   },
   {
-   "id": "1311835035",
-   "title": "Custom related content fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835035",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
-   "id": "1311835029",
-   "title": "Custom text fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835029",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
-   "id": "1311835027",
-   "title": "Custom vocabularies (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835027",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
    "id": "1311834373",
    "title": "Define publishing (Mikayel)",
    "section": "Full Functional testing samples",
@@ -1580,20 +1940,11 @@
    "marked": false
   },
   {
-   "id": "1311834334",
-   "title": "Deleting desk (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834334",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1308524824",
    "title": "Desk management (PASS) (Mikayel)",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524824",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -1607,20 +1958,11 @@
    "marked": false
   },
   {
-   "id": "1344443825",
-   "title": "Desk switching (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443825",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1308524822",
    "title": "Desks and stages",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524822",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -1661,42 +2003,6 @@
    "marked": false
   },
   {
-   "id": "1311835241",
-   "title": "Duplicate article in place (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835241",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835243",
-   "title": "Duplicate article to another place (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835243",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1333690438",
-   "title": "Duplicate item (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1333690438",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
-   "id": "1311835081",
-   "title": "Edit URL field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835081",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1327759372",
    "title": "Edit attachment",
    "section": "Full Functional testing samples",
@@ -1724,15 +2030,6 @@
    "marked": false
   },
   {
-   "id": "1311835056",
-   "title": "Edit custom date field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835056",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1335328978",
    "title": "Edit custom datetime field",
    "section": "Full Functional testing samples",
@@ -1740,24 +2037,6 @@
    "has_body": true,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1311835064",
-   "title": "Edit custom embed field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835064",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835046",
-   "title": "Edit custom text field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835046",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1308524765",
@@ -1796,15 +2075,6 @@
    "marked": false
   },
   {
-   "id": "1311835072",
-   "title": "Edit related content field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835072",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1311834273",
    "title": "Edit stage",
    "section": "Full Functional testing samples",
@@ -1812,15 +2082,6 @@
    "has_body": true,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1311835042",
-   "title": "Edit vocabulary (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835042",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1311835225",
@@ -1839,15 +2100,6 @@
    "has_body": false,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1308524853",
-   "title": "Fetch item (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524853",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1344443794",
@@ -1881,7 +2133,7 @@
    "title": "Images in Body Editor3",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759397",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -1929,33 +2181,6 @@
    "has_body": false,
    "is_container": true,
    "marked": false
-  },
-  {
-   "id": "1311835247",
-   "title": "Mark article for desk from the list view (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835247",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1315931715",
-   "title": "Mark for desk (Nareg) (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931715",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
-   "id": "1315931717",
-   "title": "Mark open article for desk (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931717",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1327759394",
@@ -2030,15 +2255,6 @@
    "marked": false
   },
   {
-   "id": "1311835083",
-   "title": "Remove URL field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835083",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1327759374",
    "title": "Remove attachment",
    "section": "Full Functional testing samples",
@@ -2066,15 +2282,6 @@
    "marked": false
   },
   {
-   "id": "1311835058",
-   "title": "Remove custom date field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835058",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1335328980",
    "title": "Remove custom datetime field",
    "section": "Full Functional testing samples",
@@ -2082,33 +2289,6 @@
    "has_body": true,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1311835066",
-   "title": "Remove custom embed field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835066",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835048",
-   "title": "Remove custom text field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835048",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835074",
-   "title": "Remove related content field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835074",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1335329041",
@@ -2147,24 +2327,6 @@
    "marked": false
   },
   {
-   "id": "1311835085",
-   "title": "Search in custom URL fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835085",
-   "has_body": false,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835060",
-   "title": "Search in custom date fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835060",
-   "has_body": false,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1335328982",
    "title": "Search in custom datetime fields",
    "section": "Full Functional testing samples",
@@ -2174,51 +2336,6 @@
    "marked": false
   },
   {
-   "id": "1311835068",
-   "title": "Search in custom embed fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835068",
-   "has_body": false,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835050",
-   "title": "Search in custom text fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835050",
-   "has_body": false,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835076",
-   "title": "Search in related content fields (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835076",
-   "has_body": false,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835052",
-   "title": "Search in vocabularies (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835052",
-   "has_body": false,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1344443827",
-   "title": "Sending items between desks_ (PASS 20.10) (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443827",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1308524955",
    "title": "Set embargo (Nareg)",
    "section": "Full Functional testing samples",
@@ -2226,33 +2343,6 @@
    "has_body": true,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1308524769",
-   "title": "Spike and Unspike (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524769",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
-   "id": "1308524774",
-   "title": "Spike item (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524774",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1308524830",
-   "title": "Stages configuration (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524830",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
   },
   {
    "id": "1311834381",
@@ -2271,24 +2361,6 @@
    "has_body": true,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1315931720",
-   "title": "Unmark item from desk (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931720",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311834144",
-   "title": "Unspike item (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834144",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1311834279",
@@ -2327,15 +2399,6 @@
    "marked": false
   },
   {
-   "id": "1311834383",
-   "title": "\ud83e\udd16 Publish Queue (Nareg) (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834383",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1308524892",
    "title": "Advanced Search (Alice)",
    "section": "Global search",
@@ -2367,7 +2430,7 @@
    "title": "Global search",
    "section": "Global search",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524851",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -2385,7 +2448,7 @@
    "title": "Search function",
    "section": "Global search",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524890",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -2426,15 +2489,6 @@
    "marked": false
   },
   {
-   "id": "1315934704",
-   "title": "Add Publish action",
-   "section": "Ingest (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934704",
-   "has_body": false,
-   "is_container": false,
-   "marked": false
-  },
-  {
    "id": "1311834949",
    "title": "Add ingest source",
    "section": "Ingest (Alice)",
@@ -2449,7 +2503,7 @@
    "section": "Ingest (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834968",
    "has_body": true,
-   "is_container": false,
+   "is_container": true,
    "marked": false
   },
   {
@@ -2458,7 +2512,7 @@
    "section": "Ingest (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934696",
    "has_body": false,
-   "is_container": false,
+   "is_container": true,
    "marked": false
   },
   {
@@ -2466,6 +2520,15 @@
    "title": "Add new rule set",
    "section": "Ingest (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834960",
+   "has_body": false,
+   "is_container": false,
+   "marked": false
+  },
+  {
+   "id": "1315934704",
+   "title": "Add Publish action",
+   "section": "Ingest (Alice)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934704",
    "has_body": false,
    "is_container": false,
    "marked": false
@@ -2520,7 +2583,7 @@
    "title": "FTP Ingest",
    "section": "Ingest (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934465",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -2633,13 +2696,13 @@
    "marked": false
   },
   {
-   "id": "1333690440",
-   "title": "Item preview",
-   "section": "Item preview",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1333690440",
-   "has_body": false,
+   "id": "1311835227",
+   "title": "🤖 Open article in preview mode (AUTOMATED)",
+   "section": "Item preview (Nareg)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835227",
+   "has_body": true,
    "is_container": false,
-   "marked": false
+   "marked": true
   },
   {
    "id": "1308524842",
@@ -2660,13 +2723,13 @@
    "marked": false
   },
   {
-   "id": "1311835227",
-   "title": "\ud83e\udd16 Open article in preview mode (AUTOMATED)",
-   "section": "Item preview (Nareg)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835227",
-   "has_body": true,
+   "id": "1333690440",
+   "title": "Item preview",
+   "section": "Item preview",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1333690440",
+   "has_body": false,
    "is_container": false,
-   "marked": true
+   "marked": false
   },
   {
    "id": "1328906269",
@@ -2759,19 +2822,19 @@
    "marked": false
   },
   {
-   "id": "1328906305",
-   "title": "Locked items in Gallery",
+   "id": "1328906289",
+   "title": "Locked items in a package",
    "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906305",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906289",
    "has_body": false,
    "is_container": true,
    "marked": false
   },
   {
-   "id": "1328906289",
-   "title": "Locked items in a package",
+   "id": "1328906305",
+   "title": "Locked items in Gallery",
    "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906289",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906305",
    "has_body": false,
    "is_container": true,
    "marked": false
@@ -3282,7 +3345,7 @@
   },
   {
    "id": "1328906278",
-   "title": "Add items to package (AUTOMATED)",
+   "title": "🤖 Add items to package (AUTOMATED)",
    "section": "Packages (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906278",
    "has_body": false,
@@ -3291,7 +3354,7 @@
   },
   {
    "id": "1310294139",
-   "title": "Add multiple items to existing package (AUTOMATED)",
+   "title": "🤖 Add multiple items to existing package (AUTOMATED)",
    "section": "Packages (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294139",
    "has_body": true,
@@ -3300,7 +3363,7 @@
   },
   {
    "id": "1310294142",
-   "title": "Add single item to existing package (AUTOMATED)",
+   "title": "🤖 Add single item to existing package (AUTOMATED)",
    "section": "Packages (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294142",
    "has_body": true,
@@ -3528,7 +3591,7 @@
    "title": "Events (Nareg)",
    "section": "Planning module",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835110",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -3537,7 +3600,7 @@
    "title": "Featured stories",
    "section": "Planning module",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835163",
-   "has_body": false,
+   "has_body": true,
    "is_container": false,
    "marked": false
   },
@@ -3678,10 +3741,19 @@
   },
   {
    "id": "1344443868",
-   "title": "Check Publish Queue (Nareg) (AUTOMATED)",
+   "title": "🤖 Check Publish Queue (Nareg) (AUTOMATED)",
    "section": "Publishing (Nareg and Mikayel ) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443868",
-   "has_body": true,
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1344443874",
+   "title": "🤖 Setting embargo (AUTOMATED)",
+   "section": "Publishing (Nareg and Mikayel ) - IMPORTANT for AUTOMATION",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443874",
+   "has_body": false,
    "is_container": false,
    "marked": true
   },
@@ -3690,7 +3762,7 @@
    "title": "Check Publishing a package (Nareg) - BEING AUTOMATED SDESK-7596",
    "section": "Publishing (Nareg and Mikayel ) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443870",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": true
   },
@@ -3709,15 +3781,15 @@
    "section": "Publishing (Nareg and Mikayel ) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443878",
    "has_body": true,
-   "is_container": false,
+   "is_container": true,
    "marked": true
   },
   {
    "id": "1344443864",
-   "title": "Publishing (Nareg and Mikayel) - IMPORTANT for AUTOMATION",
+   "title": "Publishing (Nareg and Mikayel ) - IMPORTANT for AUTOMATION",
    "section": "Publishing (Nareg and Mikayel ) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443864",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": true
   },
@@ -3726,16 +3798,7 @@
    "title": "Scheduling publishing (Nareg) BEING AUTOMATED SDESK-7597",
    "section": "Publishing (Nareg and Mikayel ) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443872",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1344443874",
-   "title": "Setting embargo (AUTOMATED)",
-   "section": "Publishing (Nareg and Mikayel ) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443874",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": true
   },
@@ -3771,7 +3834,7 @@
    "title": "SAMS Module",
    "section": "SAMS Module",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444876",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -3879,8 +3942,8 @@
    "title": "User privileges (pass 02.11)",
    "section": "User management",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834241",
-   "has_body": true,
-   "is_container": false,
+   "has_body": false,
+   "is_container": true,
    "marked": false
   },
   {
@@ -3916,8 +3979,80 @@
    "section": "User profile (Mikayel)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524836",
    "has_body": true,
-   "is_container": false,
+   "is_container": true,
    "marked": false
+  },
+  {
+   "id": "1318322999",
+   "title": "🤖 Add widget to custom workspace dashboard (AUTOMATED)",
+   "section": "Workspace",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318322999",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835212",
+   "title": "🤖 Copy article in Personal space (AUTOMATED)",
+   "section": "Workspace",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835212",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835196",
+   "title": "🤖 Create new article in Personal space (AUTOMATED)",
+   "section": "Workspace",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835196",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1315930206",
+   "title": "🤖 Create new custom workspace (AUTOMATED)",
+   "section": "Workspace",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315930206",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1318323005",
+   "title": "🤖 Create, save and close new article in custom workspace (AUTOMATED)",
+   "section": "Workspace",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318323005",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835208",
+   "title": "🤖 Edit article in Personal space (AUTOMATED)",
+   "section": "Workspace",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835208",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1308524885",
+   "title": "🤖 Search field (AUTOMATED)",
+   "section": "Workspace",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524885",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835216",
+   "title": "🤖 Send item from Personal space (AUTOMATED)",
+   "section": "Workspace",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835216",
+   "has_body": false,
+   "is_container": false,
+   "marked": true
   },
   {
    "id": "1308524869",
@@ -3929,15 +4064,6 @@
    "marked": false
   },
   {
-   "id": "1318322999",
-   "title": "Add widget to custom workspace dashboard (AUTOMATED)",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318322999",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1318323011",
    "title": "Configure personal Monitoring view in custom workspace",
    "section": "Workspace",
@@ -3947,56 +4073,20 @@
    "marked": false
   },
   {
-   "id": "1311835212",
-   "title": "Copy article in Personal space (AUTOMATED)",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835212",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
    "id": "1311835206",
    "title": "Create new article from a template in Personal space",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835206",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1311835196",
-   "title": "Create new article in Personal space (AUTOMATED)",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835196",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1315930206",
-   "title": "Create new custom workspace (AUTOMATED)",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315930206",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1318323005",
-   "title": "Create, save and close new article in custom workspace (AUTOMATED)",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318323005",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1308524860",
    "title": "Custom workspaces (Alice)",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524860",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -4005,25 +4095,16 @@
    "title": "Dashboard and widgets (Nareg)",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524856",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
-  },
-  {
-   "id": "1311835208",
-   "title": "Edit article in Personal space (AUTOMATED)",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835208",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1311835210",
    "title": "Export article from Personal space",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835210",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -4041,7 +4122,7 @@
    "title": "Filter items in Personal space",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835218",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -4055,21 +4136,21 @@
    "marked": false
   },
   {
-   "id": "1308524881",
-   "title": "Monitoring Widget Settings",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524881",
-   "has_body": false,
-   "is_container": false,
-   "marked": false
-  },
-  {
    "id": "1308524838",
    "title": "Monitoring view (Alice)",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524838",
    "has_body": false,
    "is_container": true,
+   "marked": false
+  },
+  {
+   "id": "1308524881",
+   "title": "Monitoring Widget Settings",
+   "section": "Workspace",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524881",
+   "has_body": false,
+   "is_container": false,
    "marked": false
   },
   {
@@ -4086,7 +4167,7 @@
    "title": "Personal space (Alice)",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524820",
-   "has_body": false,
+   "has_body": true,
    "is_container": true,
    "marked": false
   },
@@ -4116,24 +4197,6 @@
    "has_body": true,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1308524885",
-   "title": "Search field (AUTOMATED)",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524885",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1311835216",
-   "title": "Send item from Personal space (AUTOMATED)",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835216",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   },
   {
    "id": "1344443788",
@@ -4167,7 +4230,7 @@
    "title": "Sort items in Personal space",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835221",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -4185,7 +4248,7 @@
    "title": "Stage selection",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835259",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -4194,7 +4257,7 @@
    "title": "Upload audio to Personal space",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835202",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -4203,7 +4266,7 @@
    "title": "Upload image to Personal space",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835200",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -4221,7 +4284,7 @@
    "title": "Upload video to Personal space",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835204",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -4239,7 +4302,7 @@
    "title": "View types",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835253",
-   "has_body": true,
+   "has_body": false,
    "is_container": false,
    "marked": false
   },
@@ -4269,69 +4332,6 @@
    "has_body": true,
    "is_container": false,
    "marked": false
-  },
-  {
-   "id": "1310851139",
-   "title": "\ud83e\udd16 Correct item (AUTOMATED)",
-   "section": "\ud83e\udd16 Corrections (Alice) (AUTOMATED)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851139",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1327759506",
-   "title": "\ud83e\udd16 Corrections (Alice) (AUTOMATED)",
-   "section": "\ud83e\udd16 Corrections (Alice) (AUTOMATED)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759506",
-   "has_body": false,
-   "is_container": true,
-   "marked": true
-  },
-  {
-   "id": "1344443358",
-   "title": "\ud83e\udd16 Corrections workflow (AUTOMATED)",
-   "section": "\ud83e\udd16 Corrections (Alice) (AUTOMATED)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443358",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1308524925",
-   "title": "Check item history (AUTOMATED)",
-   "section": "\ud83e\udd16 Item versions (Mikayel) (AUTOMATED)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524925",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1308524931",
-   "title": "Compare versions (AUTOMATED)",
-   "section": "\ud83e\udd16 Item versions (Mikayel) (AUTOMATED)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524931",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1308524923",
-   "title": "Item versions (Mikayel) (AUTOMATED)",
-   "section": "\ud83e\udd16 Item versions (Mikayel) (AUTOMATED)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524923",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1308524929",
-   "title": "Revert to a previous version",
-   "section": "\ud83e\udd16 Item versions (Mikayel) (AUTOMATED)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524929",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
   }
  ]
 }
