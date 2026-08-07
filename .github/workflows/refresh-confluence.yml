@@ -1,9 +1,7 @@
 name: Refresh Confluence registry
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '30 5 * * 1'   # Mondays 05:30 UTC, before the dashboard build
+  workflow_dispatch:   # manual only: needs CONFLUENCE_EMAIL / CONFLUENCE_API_TOKEN secrets
 
 permissions:
   contents: write
