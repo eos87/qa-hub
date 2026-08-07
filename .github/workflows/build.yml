@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout hub
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Checkout superdesk-client-core
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: superdesk/superdesk-client-core
           ref: develop
@@ -26,16 +26,16 @@ jobs:
           fetch-depth: 1
 
       - name: Checkout superdesk-planning
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: superdesk/superdesk-planning
           ref: develop
           path: repos/superdesk-planning
           fetch-depth: 1
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Build dashboard
         run: node scripts/build.mjs
