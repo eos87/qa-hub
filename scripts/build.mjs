@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {PATHS, CONFLUENCE_BASE} from './config.mjs';
+import {PATHS, CONFLUENCE_BASE, PLANNING_SECTION} from './config.mjs';
 import {parseAnnotations} from './parse-annotations.mjs';
 
 const registry = JSON.parse(fs.readFileSync(PATHS.registry, 'utf8')).cases;
@@ -97,6 +97,18 @@ if (!same(last, point)) {
 
 fs.writeFileSync(PATHS.coverage, JSON.stringify({
   generated: date, repos, metrics, unknownIds, rows,
+}, null, 1));
+
+// The automation backlog: documented QA cases with no e2e spec yet. This is the
+// orchestrator's work queue; regenerated every build so it never goes stale.
+const backlog = rows.filter((r) => r.cls === 'not_automated').map((r) => ({
+  id: r.id, title: r.title, section: r.section, url: r.conf_url,
+  suggested_repo: PLANNING_SECTION.test(r.section) ? 'superdesk-planning' : 'superdesk-client-core',
+}));
+fs.writeFileSync(PATHS.backlog, JSON.stringify({
+  generated: date, count: backlog.length,
+  note: 'not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)',
+  cases: backlog,
 }, null, 1));
 
 const tmpl = fs.readFileSync(PATHS.template, 'utf8');

@@ -42,10 +42,10 @@ jobs:
 
       - name: Commit regenerated dashboard
         run: |
-          if [[ -n "$(git status --porcelain index.html data/coverage.json data/history.jsonl)" ]]; then
+          if [[ -n "$(git status --porcelain index.html data/coverage.json data/history.jsonl data/backlog.json)" ]]; then
             git config user.name "qa-hub-bot"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add index.html data/coverage.json data/history.jsonl
+            git add index.html data/coverage.json data/history.jsonl data/backlog.json
             git commit -m "Update coverage dashboard ($(date -u +%F)) [skip ci]"
             git push
           else

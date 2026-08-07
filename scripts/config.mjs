@@ -37,4 +37,9 @@ export const PATHS = {
   history: path.join(HUB, 'data', 'history.jsonl'),
   template: path.join(HUB, 'scripts', 'lib', 'template.html'),
   index: path.join(HUB, 'index.html'),
+  backlog: path.join(HUB, 'data', 'backlog.json'),
 };
+
+// Sections whose cases belong to superdesk-planning; everything else routes to
+// client-core. A hint only; the leaf agent confirms from the actual feature.
+export const PLANNING_SECTION = /planning|event|assignment|agenda/i;
