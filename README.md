@@ -23,7 +23,7 @@ Every build appends one line to `data/history.jsonl` (date + the key counts), de
 - **git history** of `data/history.jsonl` and `data/coverage.json`: a durable, diffable trail of every change.
 - **the trend chart** on the dashboard, rendered from `history.jsonl`.
 
-The first point (2026-06-25) is a seeded baseline from the audit. Coverage then equals now because only annotations were added since, not new tests, so the line is flat until real automation lands. Every point after this is a genuine build.
+The chart shows a single "starting point" marker until there are at least two builds with different numbers, then it draws the trend. Points are real measurements only; no synthetic baseline.
 
 ## Automation (GitHub Actions)
 
