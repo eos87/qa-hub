@@ -56,7 +56,15 @@ async function crawl() {
   let frontier = [ROOT];
   children.set(ROOT, []);
   while (frontier.length) {
-    const layer = await pool(frontier, 8, async (id) => (await directChildren(id)).map((c) => ({...c, parent: id})));
+    const layer = await pool(frontier, 8, async (id) => {
+      try {
+        return (await directChildren(id)).map((c) => ({...c, parent: id}));
+      } catch (e) {
+        // Inaccessible pages (e.g. drafts) 404 on direct-children; treat them as leaves.
+        console.warn(`[refresh] no children for ${id}: ${e.message}`);
+        return [];
+      }
+    });
     const next = [];
     for (const kids of layer) {
       for (const k of kids) {
