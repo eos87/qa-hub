@@ -128,7 +128,7 @@ footer{color:var(--mut);font-size:12px;line-height:1.7;margin-top:40px;border-to
 ::selection{background:var(--accent);color:var(--accent-fg)}
 @media (max-width:640px){.wrap{padding:24px 16px 40px}h1{font-size:22px}.card .big{font-size:28px}}
 </style>
-<script>(function(){var t=localStorage.getItem('qa-theme')||'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
+<script>(function(){var s=localStorage.getItem('qa-theme');var osLight=window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches;document.documentElement.setAttribute('data-theme',s||(osLight?'light':'dark'));})();</script>
 </head>
 <body><div class="wrap">
 <div class="top">
@@ -300,6 +300,14 @@ themeBtn.onclick=()=>{
  paintToggle();
  drawProgress();
 };
+// Follow the OS theme live, unless the user has made a manual choice.
+if(window.matchMedia){
+ window.matchMedia('(prefers-color-scheme: light)').addEventListener('change',e=>{
+  if(localStorage.getItem('qa-theme'))return;
+  document.documentElement.setAttribute('data-theme',e.matches?'light':'dark');
+  paintToggle(); drawProgress();
+ });
+}
 
 // ---- filters ----
 const secSel=document.getElementById('section');
