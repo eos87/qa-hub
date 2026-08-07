@@ -1,9 +1,7 @@
 name: Build coverage dashboard
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 6 * * 1'   # Mondays 06:00 UTC: one clean weekly history point
+  workflow_dispatch:   # manual only: trigger from the Actions tab or `gh workflow run` after a PR merges
 
 permissions:
   contents: write
@@ -23,6 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: superdesk/superdesk-client-core
+          ref: develop
           path: repos/superdesk-client-core
           fetch-depth: 1
 
@@ -30,6 +29,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: superdesk/superdesk-planning
+          ref: develop
           path: repos/superdesk-planning
           fetch-depth: 1
 
