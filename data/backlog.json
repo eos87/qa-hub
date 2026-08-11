@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-07",
- "count": 146,
+ "generated": "2026-08-11",
+ "count": 138,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -130,13 +130,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1313669361",
-   "title": "Bold",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669361",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1311834886",
    "title": "Delete annotation",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
@@ -165,24 +158,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1313669351",
-   "title": "Headings H1-H6",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669351",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1311834935",
    "title": "Inline comments in Editor Sidebar",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834935",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669363",
-   "title": "Italic",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669363",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -193,24 +172,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1313669357",
-   "title": "Ordered list",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669357",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1313669359",
    "title": "Preformatted text",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669359",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669353",
-   "title": "Quote",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669353",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -267,20 +232,6 @@
    "title": "Toggle Suggestions Mode button",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669232",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669372",
-   "title": "Underline",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669372",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669355",
-   "title": "Unordered list",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669355",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -813,13 +764,6 @@
    "title": "Upload a single audio file by selecting from folder",
    "section": "Media assets (Mikayel)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931239",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931215",
-   "title": "Upload a single image by drag and drop",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931215",
    "suggested_repo": "superdesk-client-core"
   },
   {
