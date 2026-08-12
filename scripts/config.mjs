@@ -38,6 +38,7 @@ export const PATHS = {
   template: path.join(HUB, 'scripts', 'lib', 'template.html'),
   index: path.join(HUB, 'index.html'),
   backlog: path.join(HUB, 'data', 'backlog.json'),
+  testdefs: path.join(HUB, 'data', 'testdefs.json'),
 };
 
 // Sections whose cases belong to superdesk-planning; everything else routes to

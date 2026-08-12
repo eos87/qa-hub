@@ -111,11 +111,15 @@ fs.writeFileSync(PATHS.backlog, JSON.stringify({
   cases: backlog,
 }, null, 1));
 
+let testdefs = [];
+try { testdefs = JSON.parse(fs.readFileSync(PATHS.testdefs, 'utf8')).series || []; } catch {}
+
 const tmpl = fs.readFileSync(PATHS.template, 'utf8');
 const html = tmpl
   .replace('__ROWS__', JSON.stringify(rows))
   .replace('__METRICS__', JSON.stringify(metrics))
   .replace('__HISTORY__', JSON.stringify(history))
+  .replace('__TESTDEFS__', JSON.stringify(testdefs))
   .replace('__SHACC__', metrics.sha_cc || 'n/a')
   .replace('__SHAPL__', metrics.sha_pl || 'n/a')
   .replace('__GENERATED__', date);
