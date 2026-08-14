@@ -1,20 +1,65 @@
 {
- "note": "e2e test definitions (test() calls) in superdesk-client-core e2e/client/playwright over time, measured from git at the start of each month along develop's FIRST-PARENT mainline (use --first-parent, otherwise a month boundary can land on a feature-branch commit with a stale tree and show phantom dips). Growth/volume metric, distinct from the case burn-up. Regenerated manually from spec-repo history.",
+ "note": "e2e test definitions (test() calls) in superdesk-client-core e2e/client/playwright over time. Points up to and including the last CLOSED month are frozen: reconstructed from git at each month start along develop's FIRST-PARENT mainline (use --first-parent, else a boundary can land on a feature-branch commit with a stale tree and show phantom dips). The trailing (in-progress) month is recomputed live by build.mjs on every CI build from the checked-out client-core develop tip (regex /(?<![A-Za-z0-9_.])test\\s*\\(/g) and overwritten here, so it tracks merges within the month and freezes once the next month opens. The live counter runs ~1-3 below the original reconstruction, so a small method seam at the current month is expected. Growth/volume metric, distinct from the case burn-up.",
  "series": [
-  {"date": "2025-06", "tests": 65},
-  {"date": "2025-07", "tests": 77},
-  {"date": "2025-08", "tests": 77},
-  {"date": "2025-09", "tests": 80},
-  {"date": "2025-10", "tests": 85},
-  {"date": "2025-11", "tests": 92},
-  {"date": "2025-12", "tests": 92},
-  {"date": "2026-01", "tests": 93},
-  {"date": "2026-02", "tests": 93},
-  {"date": "2026-03", "tests": 93},
-  {"date": "2026-04", "tests": 93},
-  {"date": "2026-05", "tests": 93},
-  {"date": "2026-06", "tests": 195},
-  {"date": "2026-07", "tests": 208},
-  {"date": "2026-08", "tests": 212}
+  {
+   "date": "2025-06",
+   "tests": 65
+  },
+  {
+   "date": "2025-07",
+   "tests": 77
+  },
+  {
+   "date": "2025-08",
+   "tests": 77
+  },
+  {
+   "date": "2025-09",
+   "tests": 80
+  },
+  {
+   "date": "2025-10",
+   "tests": 85
+  },
+  {
+   "date": "2025-11",
+   "tests": 92
+  },
+  {
+   "date": "2025-12",
+   "tests": 92
+  },
+  {
+   "date": "2026-01",
+   "tests": 93
+  },
+  {
+   "date": "2026-02",
+   "tests": 93
+  },
+  {
+   "date": "2026-03",
+   "tests": 93
+  },
+  {
+   "date": "2026-04",
+   "tests": 93
+  },
+  {
+   "date": "2026-05",
+   "tests": 93
+  },
+  {
+   "date": "2026-06",
+   "tests": 195
+  },
+  {
+   "date": "2026-07",
+   "tests": 208
+  },
+  {
+   "date": "2026-08",
+   "tests": 242
+  }
  ]
 }

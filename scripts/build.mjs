@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {PATHS, CONFLUENCE_BASE, PLANNING_SECTION} from './config.mjs';
+import {PATHS, CONFLUENCE_BASE, PLANNING_SECTION, REPOS_DIR, REPOS} from './config.mjs';
 import {parseAnnotations} from './parse-annotations.mjs';
 
 const registry = JSON.parse(fs.readFileSync(PATHS.registry, 'utf8')).cases;
@@ -111,8 +111,41 @@ fs.writeFileSync(PATHS.backlog, JSON.stringify({
   cases: backlog,
 }, null, 1));
 
-let testdefs = [];
-try { testdefs = JSON.parse(fs.readFileSync(PATHS.testdefs, 'utf8')).series || []; } catch {}
+let testdefsDoc = {note: '', series: []};
+try { testdefsDoc = JSON.parse(fs.readFileSync(PATHS.testdefs, 'utf8')); } catch {}
+let testdefs = testdefsDoc.series || [];
+
+// The in-progress month is recounted live from the checked-out client-core develop
+// tip (CI sets LIVE_TESTDEFS). Earlier months stay frozen in testdefs.json: they were
+// reconstructed with a --first-parent walk over deep history the shallow build lacks.
+// Persisting the live point freezes the month once the next month opens.
+function countLiveTestDefs() {
+  const cc = REPOS.find((r) => r.name === 'client-core');
+  const dir = path.join(REPOS_DIR, cc.dir, cc.specDir);
+  if (!fs.existsSync(dir)) return null;
+  const re = /(?<![A-Za-z0-9_.])test\s*\(/g;
+  let n = 0;
+  for (const f of fs.readdirSync(dir, {recursive: true})) {
+    if (!f.endsWith('.ts')) continue;
+    const m = fs.readFileSync(path.join(dir, f), 'utf8').match(re);
+    if (m) n += m.length;
+  }
+  return n;
+}
+if (process.env.LIVE_TESTDEFS) {
+  const live = countLiveTestDefs();
+  if (live != null) {
+    const ym = date.slice(0, 7);
+    const lastTd = testdefs[testdefs.length - 1];
+    if (lastTd && lastTd.date === ym) lastTd.tests = live;
+    else testdefs.push({date: ym, tests: live});
+    testdefsDoc.series = testdefs;
+    fs.writeFileSync(PATHS.testdefs, JSON.stringify(testdefsDoc, null, 1) + '\n');
+    console.error(`[build] testdefs live point ${ym}=${live} (client-core develop tip)`);
+  } else {
+    console.error('[build] LIVE_TESTDEFS set but client-core checkout not found; keeping static series');
+  }
+}
 
 const tmpl = fs.readFileSync(PATHS.template, 'utf8');
 const html = tmpl
