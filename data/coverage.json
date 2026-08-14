@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12",
+ "generated": "2026-08-14",
  "repos": {
   "client-core": {
    "sha": "d71b7d904887b8d0d026543e29be829826c61c4c",
@@ -7,7 +7,7 @@
    "repo": "superdesk-client-core"
   },
   "planning": {
-   "sha": "c4d813fe0d801650b427f26362ad736ce1ebecf8",
+   "sha": "80f7326e585046c66fe961a31e9587eaa8aa5f3b",
    "owner": "superdesk",
    "repo": "superdesk-planning"
   }
@@ -23,7 +23,7 @@
   "manual_empty": 52,
   "stale": 0,
   "sha_cc": "d71b7d904",
-  "sha_pl": "c4d813fe0"
+  "sha_pl": "80f7326e5"
  },
  "unknownIds": [],
  "rows": [
@@ -5357,7 +5357,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835171",
    "spec_label": "edit_planning.spec.ts:80",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/planning/edit_planning.spec.ts#L80",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/planning/edit_planning.spec.ts#L80",
    "notes": "can add coverage to workflow",
    "marked": false
   },
@@ -5371,7 +5371,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835165",
    "spec_label": "event_embedded_coverage.spec.ts:26",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/event_embedded_coverage.spec.ts#L26",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/event_embedded_coverage.spec.ts#L26",
    "notes": "can add a planning item to a new Event",
    "marked": false
   },
@@ -5385,7 +5385,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835122",
    "spec_label": "edit_event.spec.ts:10",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/edit_event.spec.ts#L10",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/edit_event.spec.ts#L10",
    "notes": "Planning.Events: edit metadata",
    "marked": false
   },
@@ -5413,7 +5413,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443378",
    "spec_label": "edit_priority.spec.ts:26",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/assignments/edit_priority.spec.ts#L26",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/assignments/edit_priority.spec.ts#L26",
    "notes": "can edit Assignment priority",
    "marked": false
   },
@@ -5427,7 +5427,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835124",
    "spec_label": "event_action_cancel.spec.ts:83",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/event_action_cancel.spec.ts#L83",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/event_action_cancel.spec.ts#L83",
    "notes": "can cancel from the list",
    "marked": false
   },
@@ -5441,7 +5441,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835137",
    "spec_label": "item_locks.spec.ts:188",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/item_locks.spec.ts#L188",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/item_locks.spec.ts#L188",
    "notes": "convert to recurring action",
    "marked": false
   },
@@ -5455,7 +5455,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835141",
    "spec_label": "event_action_create_planning.spec.ts:145",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/event_action_create_planning.spec.ts#L145",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/event_action_create_planning.spec.ts#L145",
    "notes": "can create and open from the list",
    "marked": false
   },
@@ -5469,7 +5469,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835116",
    "spec_label": "edit_event.spec.ts:59",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/edit_event.spec.ts#L59",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/edit_event.spec.ts#L59",
    "notes": "can create an Event",
    "marked": false
   },
@@ -5483,7 +5483,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835114",
    "spec_label": "edit_planning.spec.ts:32",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/planning/edit_planning.spec.ts#L32",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/planning/edit_planning.spec.ts#L32",
    "notes": "can create a Planning item",
    "marked": false
   },
@@ -5497,7 +5497,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835139",
    "spec_label": "event_action_create_planning.spec.ts:133",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/event_action_create_planning.spec.ts#L133",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/event_action_create_planning.spec.ts#L133",
    "notes": "can create from the list",
    "marked": false
   },
@@ -5511,7 +5511,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835120",
    "spec_label": "event_action_duplicate.spec.ts:52",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/event_action_duplicate.spec.ts#L52",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/event_action_duplicate.spec.ts#L52",
    "notes": "can duplicate an event",
    "marked": false
   },
@@ -5539,7 +5539,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835118",
    "spec_label": "edit_event.spec.ts:179",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/edit_event.spec.ts#L179",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/edit_event.spec.ts#L179",
    "notes": "Planing.Events: edit existing events",
    "marked": false
   },
@@ -5567,7 +5567,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835155",
    "spec_label": "edit_planning.spec.ts:8",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/planning/edit_planning.spec.ts#L8",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/planning/edit_planning.spec.ts#L8",
    "notes": "Planning.Planning: edit metadata",
    "marked": false
   },
@@ -5581,7 +5581,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835157",
    "spec_label": "accessibility.spec.ts:73",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/planning/accessibility.spec.ts#L73",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/planning/accessibility.spec.ts#L73",
    "notes": "can open an item for editing using a keyboard",
    "marked": false
   },
@@ -5595,7 +5595,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835147",
    "spec_label": "event_action_cancel.spec.ts:115",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/event_action_cancel.spec.ts#L115",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/event_action_cancel.spec.ts#L115",
    "notes": "can cancel from the preview",
    "marked": false
   },
@@ -5623,7 +5623,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835163",
    "spec_label": "featured_planning.spec.ts:8",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/planning/featured_planning.spec.ts#L8",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/planning/featured_planning.spec.ts#L8",
    "notes": "Planning.Featured",
    "marked": false
   },
@@ -5637,7 +5637,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835133",
    "spec_label": "item_locks.spec.ts:166",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/item_locks.spec.ts#L166",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/item_locks.spec.ts#L166",
    "notes": "mark as postponed action",
    "marked": false
   },
@@ -5651,7 +5651,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835149",
    "spec_label": "workqueue.spec.ts:27",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/workqueue.spec.ts#L27",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/workqueue.spec.ts#L27",
    "notes": "Events",
    "marked": false
   },
@@ -5665,7 +5665,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835173",
    "spec_label": "search_filters.spec.ts:69",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/search/search_filters.spec.ts#L69",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/search/search_filters.spec.ts#L69",
    "notes": "can create event filter",
    "marked": false
   },
@@ -5679,7 +5679,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835153",
    "spec_label": "planning_action_cancel.spec.ts:36",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/planning/planning_action_cancel.spec.ts#L36",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/planning/planning_action_cancel.spec.ts#L36",
    "notes": "can cancel a Planning item",
    "marked": false
   },
@@ -5721,7 +5721,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835145",
    "spec_label": "edit_event.spec.ts:140",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/events/edit_event.spec.ts#L140",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/events/edit_event.spec.ts#L140",
    "notes": "Post updates the initial values",
    "marked": false
   },
@@ -5735,7 +5735,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835143",
    "spec_label": "edit_planning.spec.ts:157",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/planning/edit_planning.spec.ts#L157",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/planning/edit_planning.spec.ts#L157",
    "notes": "Post updates the initial values",
    "marked": false
   },
@@ -5749,7 +5749,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835135",
    "spec_label": "item_locks.spec.ts:177",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/item_locks.spec.ts#L177",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/item_locks.spec.ts#L177",
    "notes": "reschedule action",
    "marked": false
   },
@@ -5763,7 +5763,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835175",
    "spec_label": "search_planning.spec.ts:25",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/search/search_planning.spec.ts#L25",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/search/search_planning.spec.ts#L25",
    "notes": "can search planning metadata",
    "marked": false
   },
@@ -5777,7 +5777,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835127",
    "spec_label": "item_locks.spec.ts:144",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/item_locks.spec.ts#L144",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/item_locks.spec.ts#L144",
    "notes": "spike action",
    "marked": false
   },
@@ -5791,7 +5791,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835167",
    "spec_label": "item_locks.spec.ts:312",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/item_locks.spec.ts#L312",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/item_locks.spec.ts#L312",
    "notes": "spike action",
    "marked": false
   },
@@ -5833,7 +5833,7 @@
    "repo": "planning",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835131",
    "spec_label": "item_locks.spec.ts:155",
-   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/c4d813fe0d801650b427f26362ad736ce1ebecf8/e2e/playwright/item_locks.spec.ts#L155",
+   "spec_url": "https://github.com/superdesk/superdesk-planning/blob/80f7326e585046c66fe961a31e9587eaa8aa5f3b/e2e/playwright/item_locks.spec.ts#L155",
    "notes": "update time action",
    "marked": false
   },
