@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-14",
- "count": 138,
+ "generated": "2026-08-18",
+ "count": 126,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -750,90 +750,6 @@
    "title": "Rotate image",
    "section": "Media assets (Mikayel)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931420",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931235",
-   "title": "Upload a single audio file by drag and drop",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931235",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931239",
-   "title": "Upload a single audio file by selecting from folder",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931239",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931245",
-   "title": "Upload a single video file by drag and drop",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931245",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931249",
-   "title": "Upload a single video file by selecting from folder",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931249",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931274",
-   "title": "Upload different media types by drag and drop",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931274",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931276",
-   "title": "Upload different media types by selecting from folder",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931276",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931237",
-   "title": "Upload multiple audio files by drag and drop",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931237",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931241",
-   "title": "Upload multiple audio files by selecting from folder",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931241",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931217",
-   "title": "Upload multiple images by drag and drop",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931217",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931213",
-   "title": "Upload multiple images by selecting from folder",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931213",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931247",
-   "title": "Upload multiple video files by drag and drop",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931247",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931251",
-   "title": "Upload multiple video files by selecting from folder",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931251",
    "suggested_repo": "superdesk-client-core"
   },
   {
