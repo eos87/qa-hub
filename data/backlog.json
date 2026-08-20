@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-18",
- "count": 126,
+ "generated": "2026-08-20",
+ "count": 121,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -172,13 +172,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1313669359",
-   "title": "Preformatted text",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669359",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1313669236",
    "title": "Reject suggestion",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
@@ -197,34 +190,6 @@
    "title": "Resolve inline comment",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834927",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669365",
-   "title": "Strikethrough",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669365",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669368",
-   "title": "Subscript",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669368",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669370",
-   "title": "Superscript",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669370",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669377",
-   "title": "Toggle formatting marks",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669377",
    "suggested_repo": "superdesk-client-core"
   },
   {
