@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-20",
+ "generated": "2026-08-21",
  "repos": {
   "client-core": {
-   "sha": "e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e",
+   "sha": "fbbc7078b48931feecae73b7b0ce0110e109d0c2",
    "owner": "superdesk",
    "repo": "superdesk-client-core"
   },
@@ -16,13 +16,13 @@
   "total": 481,
   "containers": 118,
   "real": 363,
-  "complete": 54,
-  "partial": 59,
+  "complete": 60,
+  "partial": 62,
   "undoc_code": 77,
-  "manual_doc": 121,
+  "manual_doc": 112,
   "manual_empty": 52,
   "stale": 0,
-  "sha_cc": "e8b2d81fa",
+  "sha_cc": "fbbc7078b",
   "sha_pl": "9859932e4"
  },
  "unknownIds": [],
@@ -37,7 +37,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851139",
    "spec_label": "correct-item.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/correct-item.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/correct-item.spec.ts#L5",
    "notes": "can correct published item",
    "marked": true
   },
@@ -65,7 +65,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443358",
    "spec_label": "correct-item-corrections-workflow.spec.ts:13",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/correct-item-corrections-workflow.spec.ts#L13",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/correct-item-corrections-workflow.spec.ts#L13",
    "notes": "can correct published item using corrections workflow",
    "marked": true
   },
@@ -79,7 +79,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524925",
    "spec_label": "article-versions.spec.ts:6",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/article-versions.spec.ts#L6",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/article-versions.spec.ts#L6",
    "notes": "reverting to a previous article version",
    "marked": true
   },
@@ -93,7 +93,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524931",
    "spec_label": "compare-versions.authoring-react.spec.ts:11",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/compare-versions.authoring-react.spec.ts#L11",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/compare-versions.authoring-react.spec.ts#L11",
    "notes": "compare versions renders dateline and custom field differences (authoring-react)",
    "marked": true
   },
@@ -121,7 +121,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524929",
    "spec_label": "article-versions.spec.ts:6",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/article-versions.spec.ts#L6",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/article-versions.spec.ts#L6",
    "notes": "reverting to a previous article version",
    "marked": true
   },
@@ -135,7 +135,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834311",
    "spec_label": "hightlights.spec.ts:6",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/hightlights.spec.ts#L6",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/hightlights.spec.ts#L6",
    "notes": "creating a global highlight",
    "marked": true
   },
@@ -149,7 +149,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834313",
    "spec_label": "hightlights.spec.ts:60",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/hightlights.spec.ts#L60",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/hightlights.spec.ts#L60",
    "notes": "adding an item to a highlights list",
    "marked": true
   },
@@ -163,7 +163,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834315",
    "spec_label": "hightlights.spec.ts:84",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/hightlights.spec.ts#L84",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/hightlights.spec.ts#L84",
    "notes": "creating a highlights package",
    "marked": true
   },
@@ -177,7 +177,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834319",
    "spec_label": "hightlights.spec.ts:161",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/hightlights.spec.ts#L161",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/hightlights.spec.ts#L161",
    "notes": "exporting a highlight",
    "marked": true
   },
@@ -205,7 +205,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834330",
    "spec_label": "multiedit.spec.ts:9",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/multiedit.spec.ts#L9",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/multiedit.spec.ts#L9",
    "notes": "editing articles in multi-edit mode",
    "marked": true
   },
@@ -219,7 +219,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834317",
    "spec_label": "hightlights.spec.ts:124",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/hightlights.spec.ts#L124",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/hightlights.spec.ts#L124",
    "notes": "publishing a highlights package",
    "marked": true
   },
@@ -233,7 +233,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524834",
    "spec_label": "article-send-to.spec.ts:7",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/article-send-to.spec.ts#L7",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/article-send-to.spec.ts#L7",
    "notes": "sending an article to another desk",
    "marked": true
   },
@@ -247,7 +247,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524832",
    "spec_label": "article-send-to.spec.ts:35",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/article-send-to.spec.ts#L35",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/article-send-to.spec.ts#L35",
    "notes": "sending an article to another stage of the same desk",
    "marked": true
   },
@@ -275,7 +275,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834309",
    "spec_label": "hightlights.spec.ts:32",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/hightlights.spec.ts#L32",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/hightlights.spec.ts#L32",
    "notes": "creating a desk highlight",
    "marked": true
   },
@@ -303,7 +303,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835104",
    "spec_label": "templates.auto-create.spec.ts:6",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/templates.auto-create.spec.ts#L6",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/templates.auto-create.spec.ts#L6",
    "notes": "creating an automatic-item-creation template persists schedule on reload",
    "marked": false
   },
@@ -331,7 +331,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524963",
    "spec_label": "templates.spec.ts:59",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/templates.spec.ts#L59",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/templates.spec.ts#L59",
    "notes": "assigning template to a desk",
    "marked": false
   },
@@ -373,7 +373,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1309835271",
    "spec_label": "templates.spec.ts:6",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/templates.spec.ts#L6",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/templates.spec.ts#L6",
    "notes": "creating new template",
    "marked": false
   },
@@ -387,7 +387,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834559",
    "spec_label": "templates.spec.ts:154",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/templates.spec.ts#L154",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/templates.spec.ts#L154",
    "notes": "default content template",
    "marked": false
   },
@@ -401,7 +401,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835108",
    "spec_label": "templates.spec.ts:29",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/templates.spec.ts#L29",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/templates.spec.ts#L29",
    "notes": "editing template name",
    "marked": false
   },
@@ -415,7 +415,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834557",
    "spec_label": "templates.spec.ts:177",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/templates.spec.ts#L177",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/templates.spec.ts#L177",
    "notes": "new article prefilling with content set in template",
    "marked": false
   },
@@ -443,7 +443,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1309835275",
    "spec_label": "templates.spec.ts:45",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/templates.spec.ts#L45",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/templates.spec.ts#L45",
    "notes": "removing template",
    "marked": false
   },
@@ -457,7 +457,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524933",
    "spec_label": "templates.spec.ts:193",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/templates.spec.ts#L193",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/templates.spec.ts#L193",
    "notes": "performing ",
    "marked": false
   },
@@ -485,7 +485,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835278",
    "spec_label": "content-filters.spec.ts:132",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/content-filters.spec.ts#L132",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/content-filters.spec.ts#L132",
    "notes": "can manage filter conditions",
    "marked": false
   },
@@ -639,7 +639,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835310",
    "spec_label": "content-filters.spec.ts:132",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/content-filters.spec.ts#L132",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/content-filters.spec.ts#L132",
    "notes": "can manage filter conditions",
    "marked": false
   },
@@ -695,7 +695,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443904",
    "spec_label": "notifications.spec.ts:10",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/notifications.spec.ts#L10",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/notifications.spec.ts#L10",
    "notes": "user mention notifies the mentioned user and clearing the badge",
    "marked": false
   },
@@ -807,7 +807,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294128",
    "spec_label": "article-versions.spec.ts:6",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/article-versions.spec.ts#L6",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/article-versions.spec.ts#L6",
    "notes": "reverting to a previous article version",
    "marked": false
   },
@@ -821,7 +821,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524917",
    "spec_label": "editor3.spec.ts:7",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.spec.ts#L7",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.spec.ts#L7",
    "notes": "can add embeds",
    "marked": true
   },
@@ -835,7 +835,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759385",
    "spec_label": "edit-embed.spec.ts:46",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/edit-embed.spec.ts#L46",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/edit-embed.spec.ts#L46",
    "notes": "hover controls open the edit dialog; Cancel discards, Submit persists across reopen",
    "marked": true
   },
@@ -849,7 +849,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759390",
    "spec_label": "remove-embed.spec.ts:64",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/remove-embed.spec.ts#L64",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/remove-embed.spec.ts#L64",
    "notes": "removing one embed deletes only it and preserves the other across reopen",
    "marked": true
   },
@@ -919,7 +919,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524921",
    "spec_label": "editor3.spec.ts:129",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.spec.ts#L129",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.spec.ts#L129",
    "notes": "tables maintaining cursor position at the start when executing ",
    "marked": false
   },
@@ -961,7 +961,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669361",
    "spec_label": "editor3.bold.spec.ts:46",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.bold.spec.ts#L46",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.bold.spec.ts#L46",
    "notes": "toolbar toggle bolds typed text and a selection, and the result survives reopen / bold toggles in the custom text field",
    "marked": false
   },
@@ -975,7 +975,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/10542284955",
    "spec_label": "templates.spec.ts:154",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/templates.spec.ts#L154",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/templates.spec.ts#L154",
    "notes": "default content template",
    "marked": false
   },
@@ -1087,7 +1087,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669351",
    "spec_label": "editor3.headings.spec.ts:38",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.headings.spec.ts#L38",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.headings.spec.ts#L38",
    "notes": "toolbar toggle makes typed text and a selection a heading, and the result survives reopen / every heading level H1-H6 applies its own tag, and the result survives reopen",
    "marked": false
   },
@@ -1129,7 +1129,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669363",
    "spec_label": "editor3.formatting-styles.spec.ts:269",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L269",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L269",
    "notes": "italic toggles in the custom text field / toolbar toggle italicizes typed text and a selection, and the result survives reopen",
    "marked": false
   },
@@ -1185,7 +1185,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669357",
    "spec_label": "editor3.formatting-styles.spec.ts:317",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L317",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L317",
    "notes": "ordered list toggles in the custom text field / ordered list in the article body",
    "marked": false
   },
@@ -1199,7 +1199,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669359",
    "spec_label": "editor3.formatting-styles.spec.ts:342",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L342",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L342",
    "notes": "preformatted text toggles per paragraph in the body and a custom field",
    "marked": false
   },
@@ -1213,7 +1213,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669353",
    "spec_label": "editor3.formatting-styles.spec.ts:293",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L293",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L293",
    "notes": "quote toggles in the custom text field / toolbar toggle quotes typed text and a selection, and the result survives reopen",
    "marked": false
   },
@@ -1283,7 +1283,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669365",
    "spec_label": "editor3.formatting-styles.spec.ts:163",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L163",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L163",
    "notes": "strikethrough toggles on typed text and on a selection, in the body and a custom field",
    "marked": false
   },
@@ -1297,7 +1297,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669368",
    "spec_label": "editor3.formatting-styles.spec.ts:175",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L175",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L175",
    "notes": "subscript toggles on typed text and on a selection, in the body and a custom field",
    "marked": false
   },
@@ -1325,7 +1325,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669370",
    "spec_label": "editor3.formatting-styles.spec.ts:187",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L187",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L187",
    "notes": "superscript toggles on typed text and on a selection, in the body and a custom field",
    "marked": false
   },
@@ -1367,7 +1367,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669377",
    "spec_label": "editor3.formatting-styles.spec.ts:492",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L492",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L492",
    "notes": "formatting marks toggle paragraph marks per editor, in the body and a custom field",
    "marked": false
   },
@@ -1395,7 +1395,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669372",
    "spec_label": "editor3.formatting-styles.spec.ts:281",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L281",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L281",
    "notes": "underline toggles in the custom text field / toolbar toggle underlines typed text and a selection, and the result survives reopen",
    "marked": false
   },
@@ -1423,7 +1423,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669355",
    "spec_label": "editor3.formatting-styles.spec.ts:305",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/editor3.formatting-styles.spec.ts#L305",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/editor3.formatting-styles.spec.ts#L305",
    "notes": "unordered list toggles in the custom text field / unordered list in the article body",
    "marked": false
   },
@@ -1451,7 +1451,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834891",
    "spec_label": "notifications.spec.ts:10",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/notifications.spec.ts#L10",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/notifications.spec.ts#L10",
    "notes": "user mention notifies the mentioned user and clearing the badge",
    "marked": false
   },
@@ -1521,7 +1521,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524961",
    "spec_label": "content-profile.spec.ts:60",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/content-profile.spec.ts#L60",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/content-profile.spec.ts#L60",
    "notes": "",
    "marked": true
   },
@@ -1563,7 +1563,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834985",
    "spec_label": "authoring.custom-fields.spec.ts:25",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L25",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L25",
    "notes": "creating a custom text field",
    "marked": false
   },
@@ -1577,7 +1577,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834983",
    "spec_label": "content-profile.spec.ts:119",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/content-profile.spec.ts#L119",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/content-profile.spec.ts#L119",
    "notes": "content profile required field blocks publish",
    "marked": false
   },
@@ -1591,7 +1591,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834555",
    "spec_label": "content-profile.spec.ts:60",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/content-profile.spec.ts#L60",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/content-profile.spec.ts#L60",
    "notes": "",
    "marked": false
   },
@@ -1619,7 +1619,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443799",
    "spec_label": "authoring.custom-fields.spec.ts:48",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L48",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L48",
    "notes": "creating a custom date field",
    "marked": false
   },
@@ -1633,7 +1633,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443803",
    "spec_label": "authoring.custom-fields.spec.ts:67",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L67",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L67",
    "notes": "creating a custom embed field",
    "marked": false
   },
@@ -1661,7 +1661,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443805",
    "spec_label": "authoring.custom-fields.spec.ts:86",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L86",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L86",
    "notes": "creating a related content field",
    "marked": false
   },
@@ -1675,7 +1675,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443807",
    "spec_label": "authoring.custom-fields.spec.ts:86",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L86",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L86",
    "notes": "creating a related content field",
    "marked": false
   },
@@ -1689,7 +1689,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443809",
    "spec_label": "authoring.custom-fields.spec.ts:25",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L25",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L25",
    "notes": "creating a custom text field",
    "marked": false
   },
@@ -1703,7 +1703,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443811",
    "spec_label": "authoring.custom-fields.spec.ts:111",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L111",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L111",
    "notes": "creating a custom URL field",
    "marked": false
   },
@@ -1717,7 +1717,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/10815143953",
    "spec_label": "authoring.custom-fields.spec.ts:133",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L133",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L133",
    "notes": "creating a field based on a vocabulary",
    "marked": false
   },
@@ -1745,7 +1745,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443857",
    "spec_label": "authoring.custom-fields.spec.ts:25",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L25",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L25",
    "notes": "creating a custom text field",
    "marked": false
   },
@@ -1787,7 +1787,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444313",
    "spec_label": "content-filters.spec.ts:132",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/content-filters.spec.ts#L132",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/content-filters.spec.ts#L132",
    "notes": "can manage filter conditions",
    "marked": false
   },
@@ -1829,7 +1829,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444319",
    "spec_label": "subscribers.spec.ts:10",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/subscribers.spec.ts#L10",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/subscribers.spec.ts#L10",
    "notes": "lists the default subscriber",
    "marked": false
   },
@@ -1843,7 +1843,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443818",
    "spec_label": "desks.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L5",
    "notes": "adding a desk",
    "marked": false
   },
@@ -1885,7 +1885,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834994",
    "spec_label": "dictionaries.spec.ts:12",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/dictionaries.spec.ts#L12",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/dictionaries.spec.ts#L12",
    "notes": "create, edit, add and remove a word in, and delete a dictionary",
    "marked": false
   },
@@ -1899,7 +1899,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834997",
    "spec_label": "dictionaries.spec.ts:62",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/dictionaries.spec.ts#L62",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/dictionaries.spec.ts#L62",
    "notes": "create a personal dictionary",
    "marked": false
   },
@@ -1955,7 +1955,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835015",
    "spec_label": "dictionaries.spec.ts:12",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/dictionaries.spec.ts#L12",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/dictionaries.spec.ts#L12",
    "notes": "create, edit, add and remove a word in, and delete a dictionary",
    "marked": false
   },
@@ -2025,7 +2025,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835017",
    "spec_label": "dictionaries.spec.ts:12",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/dictionaries.spec.ts#L12",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/dictionaries.spec.ts#L12",
    "notes": "create, edit, add and remove a word in, and delete a dictionary",
    "marked": false
   },
@@ -2053,7 +2053,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835054",
    "spec_label": "authoring.custom-fields.spec.ts:48",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L48",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L48",
    "notes": "creating a custom date field",
    "marked": true
   },
@@ -2067,7 +2067,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835062",
    "spec_label": "authoring.custom-fields.spec.ts:67",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L67",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L67",
    "notes": "creating a custom embed field",
    "marked": true
   },
@@ -2081,7 +2081,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835044",
    "spec_label": "authoring.custom-fields.spec.ts:25",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L25",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L25",
    "notes": "creating a custom text field",
    "marked": true
   },
@@ -2095,7 +2095,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834267",
    "spec_label": "desks.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L5",
    "notes": "adding a desk",
    "marked": true
   },
@@ -2109,7 +2109,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835070",
    "spec_label": "authoring.custom-fields.spec.ts:86",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L86",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L86",
    "notes": "creating a related content field",
    "marked": true
   },
@@ -2123,7 +2123,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835079",
    "spec_label": "authoring.custom-fields.spec.ts:111",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L111",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L111",
    "notes": "creating a custom URL field",
    "marked": true
   },
@@ -2137,7 +2137,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835040",
    "spec_label": "authoring.custom-fields.spec.ts:133",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.custom-fields.spec.ts#L133",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.custom-fields.spec.ts#L133",
    "notes": "creating a field based on a vocabulary",
    "marked": true
   },
@@ -2165,7 +2165,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851153",
    "spec_label": "authoring.spec.ts:50",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.spec.ts#L50",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.spec.ts#L50",
    "notes": "cancel and ignore buttons from unsaved changes modal",
    "marked": true
   },
@@ -2263,7 +2263,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834334",
    "spec_label": "desks.spec.ts:29",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L29",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L29",
    "notes": "deleting a desk",
    "marked": true
   },
@@ -2277,7 +2277,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443825",
    "spec_label": "desks.spec.ts:158",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L158",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L158",
    "notes": "Switching between desks",
    "marked": true
   },
@@ -2291,7 +2291,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835241",
    "spec_label": "monitoring.duplication.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.duplication.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.duplication.spec.ts#L5",
    "notes": "duplicate in place action",
    "marked": true
   },
@@ -2305,7 +2305,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835243",
    "spec_label": "monitoring.duplication-extensions.spec.ts:13",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.duplication-extensions.spec.ts#L13",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.duplication-extensions.spec.ts#L13",
    "notes": "duplicate to a different desk and stage",
    "marked": true
   },
@@ -2333,7 +2333,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835056",
    "spec_label": "vocabularies.spec.ts:4",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/vocabularies.spec.ts#L4",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/vocabularies.spec.ts#L4",
    "notes": "can restore vocabulary data when editing is cancelled",
    "marked": true
   },
@@ -2347,7 +2347,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835064",
    "spec_label": "vocabularies.spec.ts:4",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/vocabularies.spec.ts#L4",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/vocabularies.spec.ts#L4",
    "notes": "can restore vocabulary data when editing is cancelled",
    "marked": true
   },
@@ -2361,7 +2361,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835046",
    "spec_label": "vocabularies.spec.ts:4",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/vocabularies.spec.ts#L4",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/vocabularies.spec.ts#L4",
    "notes": "can restore vocabulary data when editing is cancelled",
    "marked": true
   },
@@ -2375,7 +2375,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835072",
    "spec_label": "vocabularies.spec.ts:4",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/vocabularies.spec.ts#L4",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/vocabularies.spec.ts#L4",
    "notes": "can restore vocabulary data when editing is cancelled",
    "marked": true
   },
@@ -2403,7 +2403,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835042",
    "spec_label": "vocabularies.spec.ts:4",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/vocabularies.spec.ts#L4",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/vocabularies.spec.ts#L4",
    "notes": "can restore vocabulary data when editing is cancelled",
    "marked": true
   },
@@ -2417,7 +2417,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524853",
    "spec_label": "fetching.spec.ts:51",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/fetching.spec.ts#L51",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/fetching.spec.ts#L51",
    "notes": "fetching an article",
    "marked": true
   },
@@ -2431,7 +2431,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835247",
    "spec_label": "desks.spec.ts:115",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L115",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L115",
    "notes": "can mark/unmark for desk",
    "marked": true
   },
@@ -2459,7 +2459,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931717",
    "spec_label": "mark-for-desks.authoring-react.spec.ts:12",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/mark-for-desks.authoring-react.spec.ts#L12",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/mark-for-desks.authoring-react.spec.ts#L12",
    "notes": "mark for desks: per-action toggle via modal (authoring-react)",
    "marked": true
   },
@@ -2473,7 +2473,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834383",
    "spec_label": "publish-queue.spec.ts:8",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/publish-queue.spec.ts#L8",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/publish-queue.spec.ts#L8",
    "notes": "item appearing in publish queue after publishing with subscriber",
    "marked": true
   },
@@ -2641,7 +2641,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443827",
    "spec_label": "monitoring.publishing.spec.ts:6",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.publishing.spec.ts#L6",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.publishing.spec.ts#L6",
    "notes": "publishing an article from a different desk",
    "marked": true
   },
@@ -2669,7 +2669,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524774",
    "spec_label": "monitoring.spiking.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.spiking.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.spiking.spec.ts#L5",
    "notes": "spiking and unspiking an article",
    "marked": true
   },
@@ -2697,7 +2697,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931720",
    "spec_label": "desks.spec.ts:115",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L115",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L115",
    "notes": "can mark/unmark for desk",
    "marked": true
   },
@@ -2711,7 +2711,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834144",
    "spec_label": "monitoring.spiking.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.spiking.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.spiking.spec.ts#L5",
    "notes": "spiking and unspiking an article",
    "marked": true
   },
@@ -2809,7 +2809,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835280",
    "spec_label": "content-filters.spec.ts:208",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/content-filters.spec.ts#L208",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/content-filters.spec.ts#L208",
    "notes": "can contain complex statements",
    "marked": false
   },
@@ -2837,7 +2837,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834259",
    "spec_label": "desks.spec.ts:438",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L438",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L438",
    "notes": "can enforce incoming, outgoing and onstage rules",
    "marked": false
   },
@@ -2963,7 +2963,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834271",
    "spec_label": "desks.spec.ts:364",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L364",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L364",
    "notes": "can set stage macro for new desk",
    "marked": false
   },
@@ -2977,7 +2977,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851164",
    "spec_label": "authoring.spec.ts:50",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.spec.ts#L50",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.spec.ts#L50",
    "notes": "cancel and ignore buttons from unsaved changes modal",
    "marked": false
   },
@@ -3089,7 +3089,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934713",
    "spec_label": "monitoring.settings.spec.ts:68",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.settings.spec.ts#L68",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.settings.spec.ts#L68",
    "notes": "switching between desks shows the selected desk monitoring groups",
    "marked": false
   },
@@ -3201,7 +3201,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524765",
    "spec_label": "authoring.spec.ts:50",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.spec.ts#L50",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.spec.ts#L50",
    "notes": "cancel and ignore buttons from unsaved changes modal",
    "marked": false
   },
@@ -3215,7 +3215,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834275",
    "spec_label": "desks.spec.ts:253",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L253",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L253",
    "notes": "edit desk",
    "marked": false
   },
@@ -3257,7 +3257,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834273",
    "spec_label": "desks.spec.ts:253",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L253",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L253",
    "notes": "edit desk",
    "marked": false
   },
@@ -3383,7 +3383,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834385",
    "spec_label": "legal-archive.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/legal-archive.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/legal-archive.spec.ts#L5",
    "notes": "legal archive",
    "marked": false
   },
@@ -3453,7 +3453,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1332117825",
    "spec_label": "authoring.spec.ts:8",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.spec.ts#L8",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.spec.ts#L8",
    "notes": "applying ",
    "marked": false
   },
@@ -3495,7 +3495,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524957",
    "spec_label": "monitoring.desk-output.spec.ts:60",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.desk-output.spec.ts#L60",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.desk-output.spec.ts#L60",
    "notes": "published article appears in source desk output",
    "marked": false
   },
@@ -3593,7 +3593,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1335329041",
    "spec_label": "desks.spec.ts:253",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/desks.spec.ts#L253",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/desks.spec.ts#L253",
    "notes": "edit desk",
    "marked": false
   },
@@ -3621,7 +3621,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934715",
    "spec_label": "monitoring.settings.spec.ts:18",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.settings.spec.ts#L18",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.settings.spec.ts#L18",
    "notes": "enabling a global saved search shows it on the monitoring view",
    "marked": false
   },
@@ -3663,7 +3663,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524955",
    "spec_label": "authoring.spec.ts:97",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.spec.ts#L97",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.spec.ts#L97",
    "notes": "setting embargo",
    "marked": false
   },
@@ -3677,7 +3677,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834381",
    "spec_label": "subscribers.spec.ts:10",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/subscribers.spec.ts#L10",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/subscribers.spec.ts#L10",
    "notes": "lists the default subscriber",
    "marked": false
   },
@@ -3761,7 +3761,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524892",
    "spec_label": "search.spec.ts:54",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/search.spec.ts#L54",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/search.spec.ts#L54",
    "notes": "searches by free-text, byline, slugline, creator and ingest provider",
    "marked": false
   },
@@ -3775,7 +3775,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318322983",
    "spec_label": "saved-search.spec.ts:64",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/saved-search.spec.ts#L64",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/saved-search.spec.ts#L64",
    "notes": "can save a global search and another user sees it",
    "marked": false
   },
@@ -3789,7 +3789,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318322985",
    "spec_label": "saved-search.spec.ts:32",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/saved-search.spec.ts#L32",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/saved-search.spec.ts#L32",
    "notes": "can save a private search",
    "marked": false
   },
@@ -3831,7 +3831,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524890",
    "spec_label": "search.spec.ts:54",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/search.spec.ts#L54",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/search.spec.ts#L54",
    "notes": "searches by free-text, byline, slugline, creator and ingest provider",
    "marked": false
   },
@@ -3845,7 +3845,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318322988",
    "spec_label": "dashboard.monitoring-widget.spec.ts:4",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/dashboard.monitoring-widget.spec.ts#L4",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/dashboard.monitoring-widget.spec.ts#L4",
    "notes": "can add saved search to monitoring widget",
    "marked": false
   },
@@ -3859,7 +3859,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318322990",
    "spec_label": "dashboard.monitoring-widget.spec.ts:4",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/dashboard.monitoring-widget.spec.ts#L4",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/dashboard.monitoring-widget.spec.ts#L4",
    "notes": "can add saved search to monitoring widget",
    "marked": false
   },
@@ -3887,7 +3887,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934702",
    "spec_label": "ingest-settings.spec.ts:31",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/ingest-settings.spec.ts#L31",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/ingest-settings.spec.ts#L31",
    "notes": "contains the Schedule tab for editing routing schedules",
    "marked": false
   },
@@ -3901,7 +3901,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834949",
    "spec_label": "ingest-provider.spec.ts:99",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/ingest-provider.spec.ts#L99",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/ingest-provider.spec.ts#L99",
    "notes": "open edit source dialog from ingest settings",
    "marked": false
   },
@@ -3957,7 +3957,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934704",
    "spec_label": "ingest-settings.spec.ts:31",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/ingest-settings.spec.ts#L31",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/ingest-settings.spec.ts#L31",
    "notes": "contains the Schedule tab for editing routing schedules",
    "marked": false
   },
@@ -3971,7 +3971,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834976",
    "spec_label": "ingest-provider.spec.ts:99",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/ingest-provider.spec.ts#L99",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/ingest-provider.spec.ts#L99",
    "notes": "open edit source dialog from ingest settings",
    "marked": false
   },
@@ -3999,7 +3999,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834951",
    "spec_label": "ingest-provider.spec.ts:99",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/ingest-provider.spec.ts#L99",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/ingest-provider.spec.ts#L99",
    "notes": "open edit source dialog from ingest settings",
    "marked": false
   },
@@ -4055,7 +4055,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834953",
    "spec_label": "fetching.spec.ts:51",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/fetching.spec.ts#L51",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/fetching.spec.ts#L51",
    "notes": "fetching an article",
    "marked": false
   },
@@ -4181,7 +4181,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934706",
    "spec_label": "ingest-settings.spec.ts:31",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/ingest-settings.spec.ts#L31",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/ingest-settings.spec.ts#L31",
    "notes": "contains the Schedule tab for editing routing schedules",
    "marked": false
   },
@@ -4195,7 +4195,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/10545135631",
    "spec_label": "internal-destinations.spec.ts:4",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/internal-destinations.spec.ts#L4",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/internal-destinations.spec.ts#L4",
    "notes": "internal destinations",
    "marked": false
   },
@@ -4209,7 +4209,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1332117815",
    "spec_label": "internal-destinations.crud.spec.ts:6",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/internal-destinations.crud.spec.ts#L6",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/internal-destinations.crud.spec.ts#L6",
    "notes": "internal destinations - CRUD, preview & sort",
    "marked": false
   },
@@ -4223,7 +4223,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835227",
    "spec_label": "monitoring.preview.spec.ts:28",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.preview.spec.ts#L28",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.preview.spec.ts#L28",
    "notes": "single click previews the item read-only and the close icon dismisses it",
    "marked": true
   },
@@ -4265,7 +4265,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1333690440",
    "spec_label": "monitoring.preview.spec.ts:17",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.preview.spec.ts#L17",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.preview.spec.ts#L17",
    "notes": "opening an article in preview mode",
    "marked": false
   },
@@ -4301,28 +4301,28 @@
    "id": "1328906267",
    "title": "Correcting article with related locked item",
    "section": "Locked items (Alice)",
-   "cls": "not_automated",
-   "group": "manual",
-   "conf": "",
-   "repo": "",
+   "cls": "automated_complete",
+   "group": "auto",
+   "conf": "complete",
+   "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906267",
-   "spec_label": null,
-   "spec_url": null,
-   "notes": "",
+   "spec_label": "locked-items.spec.ts:967",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/locked-items.spec.ts#L967",
+   "notes": "an article gaining a locked related item in the correction",
    "marked": false
   },
   {
    "id": "1328906320",
    "title": "Correcting gallery with locked item",
    "section": "Locked items (Alice)",
-   "cls": "not_automated",
-   "group": "manual",
-   "conf": "",
-   "repo": "",
+   "cls": "automated_partial",
+   "group": "auto",
+   "conf": "partial",
+   "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906320",
-   "spec_label": null,
-   "spec_url": null,
-   "notes": "",
+   "spec_label": "locked-items.spec.ts:1052",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/locked-items.spec.ts#L1052",
+   "notes": "an article gaining a locked gallery picture in the correction",
    "marked": false
   },
   {
@@ -4343,28 +4343,28 @@
    "id": "1311834235",
    "title": "Grant the Unlock content privilege to individual user",
    "section": "Locked items (Alice)",
-   "cls": "not_automated",
-   "group": "manual",
-   "conf": "",
-   "repo": "",
+   "cls": "automated_complete",
+   "group": "auto",
+   "conf": "complete",
+   "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834235",
-   "spec_label": null,
-   "spec_url": null,
-   "notes": "",
+   "spec_label": "locked-items.spec.ts:220",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/locked-items.spec.ts#L220",
+   "notes": "the Unlock content privilege granted to an individual user",
    "marked": false
   },
   {
    "id": "1311834233",
    "title": "Grant the Unlock content privilege via user role",
    "section": "Locked items (Alice)",
-   "cls": "not_automated",
-   "group": "manual",
-   "conf": "",
-   "repo": "",
+   "cls": "automated_complete",
+   "group": "auto",
+   "conf": "complete",
+   "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834233",
-   "spec_label": null,
-   "spec_url": null,
-   "notes": "",
+   "spec_label": "locked-items.spec.ts:333",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/locked-items.spec.ts#L333",
+   "notes": "the Unlock content privilege granted through a user role",
    "marked": false
   },
   {
@@ -4441,56 +4441,56 @@
    "id": "1328906297",
    "title": "Publishing article with locked item in Feature media",
    "section": "Locked items (Alice)",
-   "cls": "not_automated",
-   "group": "manual",
-   "conf": "",
-   "repo": "",
+   "cls": "automated_partial",
+   "group": "auto",
+   "conf": "partial",
+   "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906297",
-   "spec_label": null,
-   "spec_url": null,
-   "notes": "",
+   "spec_label": "locked-items.spec.ts:649",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/locked-items.spec.ts#L649",
+   "notes": "an article whose Feature media item is locked by another user",
    "marked": false
   },
   {
    "id": "1328906265",
    "title": "Publishing article with related locked item",
    "section": "Locked items (Alice)",
-   "cls": "not_automated",
-   "group": "manual",
-   "conf": "",
-   "repo": "",
+   "cls": "automated_complete",
+   "group": "auto",
+   "conf": "complete",
+   "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906265",
-   "spec_label": null,
-   "spec_url": null,
-   "notes": "",
+   "spec_label": "locked-items.spec.ts:822",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/locked-items.spec.ts#L822",
+   "notes": "an article one of whose related items is locked",
    "marked": false
   },
   {
    "id": "1328906307",
    "title": "Publishing gallery with locked item",
    "section": "Locked items (Alice)",
-   "cls": "not_automated",
-   "group": "manual",
-   "conf": "",
-   "repo": "",
+   "cls": "automated_partial",
+   "group": "auto",
+   "conf": "partial",
+   "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906307",
-   "spec_label": null,
-   "spec_url": null,
-   "notes": "",
+   "spec_label": "locked-items.spec.ts:892",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/locked-items.spec.ts#L892",
+   "notes": "an article whose gallery holds a locked picture",
    "marked": false
   },
   {
    "id": "1328906291",
    "title": "Publishing package with locked item",
    "section": "Locked items (Alice)",
-   "cls": "not_automated",
-   "group": "manual",
-   "conf": "",
-   "repo": "",
+   "cls": "automated_complete",
+   "group": "auto",
+   "conf": "complete",
+   "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906291",
-   "spec_label": null,
-   "spec_url": null,
-   "notes": "",
+   "spec_label": "locked-items.spec.ts:740",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/locked-items.spec.ts#L740",
+   "notes": "a package whose item the publisher has locked in a second session",
    "marked": false
   },
   {
@@ -4525,14 +4525,14 @@
    "id": "1311834225",
    "title": "Unlock item",
    "section": "Locked items (Alice)",
-   "cls": "not_automated",
-   "group": "manual",
-   "conf": "",
-   "repo": "",
+   "cls": "automated_complete",
+   "group": "auto",
+   "conf": "complete",
+   "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834225",
-   "spec_label": null,
-   "spec_url": null,
-   "notes": "",
+   "spec_label": "locked-items.spec.ts:220",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/locked-items.spec.ts#L220",
+   "notes": "the Unlock content privilege granted to an individual user",
    "marked": false
   },
   {
@@ -4545,7 +4545,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443792",
    "spec_label": "authoring.spec.ts:8",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.spec.ts#L8",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.spec.ts#L8",
    "notes": "applying ",
    "marked": false
   },
@@ -4867,7 +4867,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834322",
    "spec_label": "authoring.picture.spec.ts:14",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.picture.spec.ts#L14",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.picture.spec.ts#L14",
    "notes": "media metadata editor",
    "marked": false
   },
@@ -4881,7 +4881,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931673",
    "spec_label": "authoring.picture.spec.ts:14",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.picture.spec.ts#L14",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.picture.spec.ts#L14",
    "notes": "media metadata editor",
    "marked": false
   },
@@ -4951,7 +4951,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444010",
    "spec_label": "authoring.legacy.media-gallery.spec.ts:55",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.legacy.media-gallery.spec.ts#L55",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.legacy.media-gallery.spec.ts#L55",
    "notes": "uploading an image with default crops adds it to the gallery",
    "marked": false
   },
@@ -4993,7 +4993,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931235",
    "spec_label": "upload-media-dropped-files.spec.ts:68",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-dropped-files.spec.ts#L68",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-dropped-files.spec.ts#L68",
    "notes": "uploads a single dropped audio file to the selected desk / uploads a dropped image, audio file and video file in one go",
    "marked": false
   },
@@ -5007,7 +5007,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931239",
    "spec_label": "upload-media-selected-files.spec.ts:66",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-selected-files.spec.ts#L66",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-selected-files.spec.ts#L66",
    "notes": "uploads a single selected audio file to the selected desk / uploads a selected image, audio file and video file in one go",
    "marked": false
   },
@@ -5021,7 +5021,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931215",
    "spec_label": "upload-media-drag-and-drop.spec.ts:21",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-drag-and-drop.spec.ts#L21",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-drag-and-drop.spec.ts#L21",
    "notes": "uploading a single image by drag and drop",
    "marked": false
   },
@@ -5035,7 +5035,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931211",
    "spec_label": "authoring.picture.spec.ts:14",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.picture.spec.ts#L14",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.picture.spec.ts#L14",
    "notes": "media metadata editor",
    "marked": false
   },
@@ -5049,7 +5049,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931245",
    "spec_label": "upload-media-dropped-files.spec.ts:70",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-dropped-files.spec.ts#L70",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-dropped-files.spec.ts#L70",
    "notes": "uploads a single dropped video file to the selected desk / uploads a dropped image, audio file and video file in one go",
    "marked": false
   },
@@ -5063,7 +5063,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931249",
    "spec_label": "upload-media-selected-files.spec.ts:68",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-selected-files.spec.ts#L68",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-selected-files.spec.ts#L68",
    "notes": "uploads a single selected video file to the selected desk / uploads a selected image, audio file and video file in one go",
    "marked": false
   },
@@ -5077,7 +5077,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931274",
    "spec_label": "upload-media-dropped-files.spec.ts:72",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-dropped-files.spec.ts#L72",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-dropped-files.spec.ts#L72",
    "notes": "uploads a dropped image, audio file and video file in one go",
    "marked": false
   },
@@ -5091,7 +5091,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931276",
    "spec_label": "upload-media-selected-files.spec.ts:70",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-selected-files.spec.ts#L70",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-selected-files.spec.ts#L70",
    "notes": "uploads a selected image, audio file and video file in one go",
    "marked": false
   },
@@ -5133,7 +5133,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931237",
    "spec_label": "upload-media-dropped-files.spec.ts:69",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-dropped-files.spec.ts#L69",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-dropped-files.spec.ts#L69",
    "notes": "uploads several dropped audio files to the selected desk / uploads a dropped image, audio file and video file in one go",
    "marked": false
   },
@@ -5147,7 +5147,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931241",
    "spec_label": "upload-media-selected-files.spec.ts:67",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-selected-files.spec.ts#L67",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-selected-files.spec.ts#L67",
    "notes": "uploads several selected audio files to the selected desk / uploads a selected image, audio file and video file in one go",
    "marked": false
   },
@@ -5161,7 +5161,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931217",
    "spec_label": "upload-media-dropped-files.spec.ts:67",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-dropped-files.spec.ts#L67",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-dropped-files.spec.ts#L67",
    "notes": "uploads several dropped images to the selected desk / uploads a dropped image, audio file and video file in one go",
    "marked": false
   },
@@ -5175,7 +5175,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931213",
    "spec_label": "upload-media-selected-files.spec.ts:65",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-selected-files.spec.ts#L65",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-selected-files.spec.ts#L65",
    "notes": "uploads several selected images to the selected desk / uploads a selected image, audio file and video file in one go",
    "marked": false
   },
@@ -5189,7 +5189,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931247",
    "spec_label": "upload-media-dropped-files.spec.ts:71",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-dropped-files.spec.ts#L71",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-dropped-files.spec.ts#L71",
    "notes": "uploads several dropped video files to the selected desk / uploads a dropped image, audio file and video file in one go",
    "marked": false
   },
@@ -5203,7 +5203,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931251",
    "spec_label": "upload-media-selected-files.spec.ts:69",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/upload-media-selected-files.spec.ts#L69",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/upload-media-selected-files.spec.ts#L69",
    "notes": "uploads several selected video files to the selected desk / uploads a selected image, audio file and video file in one go",
    "marked": false
   },
@@ -5245,7 +5245,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294139",
    "spec_label": "package.spec.ts:144",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/package.spec.ts#L144",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/package.spec.ts#L144",
    "notes": "add multiple items to the currently open package via bulk action",
    "marked": true
   },
@@ -5259,7 +5259,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294142",
    "spec_label": "package.spec.ts:32",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/package.spec.ts#L32",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/package.spec.ts#L32",
    "notes": "increment package version",
    "marked": true
   },
@@ -5273,7 +5273,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294136",
    "spec_label": "package.spec.ts:176",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/package.spec.ts#L176",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/package.spec.ts#L176",
    "notes": "create package from a published item via global search",
    "marked": false
   },
@@ -5315,7 +5315,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524947",
    "spec_label": "package.spec.ts:100",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/package.spec.ts#L100",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/package.spec.ts#L100",
    "notes": "create package from multiple items via bulk action",
    "marked": false
   },
@@ -5343,7 +5343,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906283",
    "spec_label": "hightlights.spec.ts:124",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/hightlights.spec.ts#L124",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/hightlights.spec.ts#L124",
    "notes": "publishing a highlights package",
    "marked": false
   },
@@ -5847,7 +5847,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443868",
    "spec_label": "publish-queue.spec.ts:8",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/publish-queue.spec.ts#L8",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/publish-queue.spec.ts#L8",
    "notes": "item appearing in publish queue after publishing with subscriber",
    "marked": true
   },
@@ -5861,7 +5861,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443874",
    "spec_label": "authoring.spec.ts:97",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.spec.ts#L97",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.spec.ts#L97",
    "notes": "setting embargo",
    "marked": true
   },
@@ -5875,7 +5875,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443870",
    "spec_label": "hightlights.spec.ts:124",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/hightlights.spec.ts#L124",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/hightlights.spec.ts#L124",
    "notes": "publishing a highlights package",
    "marked": true
   },
@@ -5889,7 +5889,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443887",
    "spec_label": "subscribers.spec.ts:10",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/subscribers.spec.ts#L10",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/subscribers.spec.ts#L10",
    "notes": "lists the default subscriber",
    "marked": false
   },
@@ -6071,7 +6071,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834344",
    "spec_label": "user-management.spec.ts:4",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/user-management.spec.ts#L4",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/user-management.spec.ts#L4",
    "notes": "creating a new user",
    "marked": false
   },
@@ -6113,7 +6113,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834356",
    "spec_label": "user-profile.spec.ts:84",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/user-profile.spec.ts#L84",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/user-profile.spec.ts#L84",
    "notes": "can reset password",
    "marked": false
   },
@@ -6197,7 +6197,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834352",
    "spec_label": "user-profile.spec.ts:22",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/user-profile.spec.ts#L22",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/user-profile.spec.ts#L22",
    "notes": "can edit my profile",
    "marked": false
   },
@@ -6239,7 +6239,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835212",
    "spec_label": "monitoring.personal-space.spec.ts:46",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.personal-space.spec.ts#L46",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.personal-space.spec.ts#L46",
    "notes": "copying an article in personal space",
    "marked": true
   },
@@ -6253,7 +6253,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835196",
    "spec_label": "monitoring.personal-space.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.personal-space.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.personal-space.spec.ts#L5",
    "notes": "creating an article in personal space",
    "marked": true
   },
@@ -6267,7 +6267,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315930206",
    "spec_label": "monitoring.custom-workspace.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.custom-workspace.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.custom-workspace.spec.ts#L5",
    "notes": "creating a custom workspace",
    "marked": true
   },
@@ -6281,7 +6281,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318323005",
    "spec_label": "monitoring.custom-workspace.spec.ts:42",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.custom-workspace.spec.ts#L42",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.custom-workspace.spec.ts#L42",
    "notes": "creating an article from a custom workspace",
    "marked": true
   },
@@ -6295,7 +6295,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835208",
    "spec_label": "monitoring.personal-space.spec.ts:22",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.personal-space.spec.ts#L22",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.personal-space.spec.ts#L22",
    "notes": "editing an article in personal space",
    "marked": true
   },
@@ -6309,7 +6309,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524885",
    "spec_label": "monitoring.misc.spec.ts:75",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.misc.spec.ts#L75",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.misc.spec.ts#L75",
    "notes": "searching the monitoring list filters items across groups",
    "marked": true
   },
@@ -6323,7 +6323,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835216",
    "spec_label": "monitoring.personal-space.spec.ts:66",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.personal-space.spec.ts#L66",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.personal-space.spec.ts#L66",
    "notes": "sending an item from personal space",
    "marked": true
   },
@@ -6337,7 +6337,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524869",
    "spec_label": "dashboard.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/dashboard.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/dashboard.spec.ts#L5",
    "notes": "adding a widget to a dashboard",
    "marked": false
   },
@@ -6365,7 +6365,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835206",
    "spec_label": "monitoring.personal-space.spec.ts:5",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/monitoring.personal-space.spec.ts#L5",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/monitoring.personal-space.spec.ts#L5",
    "notes": "creating an article in personal space",
    "marked": false
   },
@@ -6449,7 +6449,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524883",
    "spec_label": "ingest-provider.spec.ts:71",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/ingest-provider.spec.ts#L71",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/ingest-provider.spec.ts#L71",
    "notes": "change settings for ingest provider widget",
    "marked": false
   },
@@ -6477,7 +6477,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524881",
    "spec_label": "dashboard.monitor-widget-config.spec.ts:38",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/dashboard.monitor-widget-config.spec.ts#L38",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/dashboard.monitor-widget-config.spec.ts#L38",
    "notes": "configures a custom label for a monitor widget",
    "marked": false
   },
@@ -6617,7 +6617,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835214",
    "spec_label": "spike.spec.ts:34",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/spike.spec.ts#L34",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/spike.spec.ts#L34",
    "notes": "can spike item from personal workspace",
    "marked": false
   },
@@ -6659,7 +6659,7 @@
    "repo": "client-core",
    "conf_url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835200",
    "spec_label": "authoring.picture.spec.ts:14",
-   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/e8b2d81fa6c00c854d3357e4a868e7b7309b3f8e/e2e/client/playwright/authoring.picture.spec.ts#L14",
+   "spec_url": "https://github.com/superdesk/superdesk-client-core/blob/fbbc7078b48931feecae73b7b0ce0110e109d0c2/e2e/client/playwright/authoring.picture.spec.ts#L14",
    "notes": "media metadata editor",
    "marked": false
   },

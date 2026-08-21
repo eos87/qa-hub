@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-20",
- "count": 121,
+ "generated": "2026-08-21",
+ "count": 112,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -515,20 +515,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1328906267",
-   "title": "Correcting article with related locked item",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906267",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1328906320",
-   "title": "Correcting gallery with locked item",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906320",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1328906312",
    "title": "Correcting package with locked item",
    "section": "Locked items (Alice)",
@@ -536,59 +522,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1311834235",
-   "title": "Grant the Unlock content privilege to individual user",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834235",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834233",
-   "title": "Grant the Unlock content privilege via user role",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834233",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1308524847",
    "title": "Lock item",
    "section": "Locked items (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524847",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1328906297",
-   "title": "Publishing article with locked item in Feature media",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906297",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1328906265",
-   "title": "Publishing article with related locked item",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906265",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1328906307",
-   "title": "Publishing gallery with locked item",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906307",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1328906291",
-   "title": "Publishing package with locked item",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906291",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834225",
-   "title": "Unlock item",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834225",
    "suggested_repo": "superdesk-client-core"
   },
   {
