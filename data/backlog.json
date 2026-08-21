@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-21",
- "count": 112,
+ "count": 106,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -606,52 +606,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1315931424",
-   "title": "Adjust colours",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931424",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1315931669",
    "title": "Copy and paste metadata",
    "section": "Media assets (Mikayel)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931669",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931417",
-   "title": "Crop image",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931417",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834326",
-   "title": "Edit crops",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834326",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931422",
-   "title": "Flip image",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931422",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931606",
-   "title": "Open image in Edit image mode",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931606",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315931420",
-   "title": "Rotate image",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931420",
    "suggested_repo": "superdesk-client-core"
   },
   {
