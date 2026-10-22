@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-21",
- "count": 106,
+ "generated": "2026-10-22",
+ "count": 89,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -116,13 +116,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1308524935",
-   "title": "Add inline comment",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524935",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1327759495",
    "title": "Add link to Body Editor3 (automated)",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
@@ -137,13 +130,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1311834933",
-   "title": "Delete inline comment",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834933",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1311834884",
    "title": "Edit annotation",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
@@ -151,45 +137,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1311834931",
-   "title": "Edit inline comment",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834931",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834935",
-   "title": "Inline comments in Editor Sidebar",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834935",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834938",
-   "title": "Notify user via inline comment - STT-1425 discovered",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834938",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1313669236",
    "title": "Reject suggestion",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669236",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834929",
-   "title": "Reply to inline comment",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834929",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834927",
-   "title": "Resolve inline comment",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834927",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -284,20 +235,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1326285113",
-   "title": "Add attachment from content profile field",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1326285113",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1326285057",
-   "title": "Add attachment from right toolbar",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1326285057",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1310851193",
    "title": "Add audio to Editor3",
    "section": "Full Functional testing samples",
@@ -326,13 +263,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1326285069",
-   "title": "Attachments in NINJS output",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1326285069",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1327759424",
    "title": "Audio preview in Editor3",
    "section": "Full Functional testing samples",
@@ -358,34 +288,6 @@
    "title": "Desk routing",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834332",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1326285061",
-   "title": "Download attachment using the content profile field",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1326285061",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1327759365",
-   "title": "Download attachment using the right toolbar",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759365",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1326285121",
-   "title": "Edit attachment using the content profile field",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1326285121",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1326285123",
-   "title": "Edit attachment using the right toolbar",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1326285123",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -431,13 +333,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1326285066",
-   "title": "Link to attachment",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1326285066",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1308524959",
    "title": "Publish package (Nareg)",
    "section": "Full Functional testing samples",
@@ -449,20 +344,6 @@
    "title": "Publishing depending on desk type",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851134",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1326285117",
-   "title": "Remove attachment using the content profile field",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1326285117",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1326285063",
-   "title": "Remove attachment using the right toolbar",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1326285063",
    "suggested_repo": "superdesk-client-core"
   },
   {
