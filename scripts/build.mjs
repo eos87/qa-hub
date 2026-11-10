@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {PATHS, CONFLUENCE_BASE, PLANNING_SECTION, REPOS_DIR, REPOS} from './config.mjs';
+import {PATHS, CONFLUENCE_BASE, PLANNING_SECTION, REPOS_DIR, REPOS, SITE_URL} from './config.mjs';
+import {writeOgPng} from './og-image.mjs';
 import {parseAnnotations} from './parse-annotations.mjs';
 
 const registry = JSON.parse(fs.readFileSync(PATHS.registry, 'utf8')).cases;
@@ -147,6 +148,13 @@ if (process.env.LIVE_TESTDEFS) {
   }
 }
 
+const latestTests = testdefs.length ? testdefs[testdefs.length - 1].tests : null;
+const ogDesc = `${point.automated_any} of ${metrics.real} QA cases have e2e automation `
+  + `(${Math.round(point.automated_any / metrics.real * 100)}%), ${metrics.complete} fully automated. `
+  + (latestTests != null ? `${latestTests} Playwright test definitions. ` : '')
+  + `Updated ${date}.`;
+const hasOg = await writeOgPng(PATHS.og, {metrics, date, tests: latestTests});
+
 const tmpl = fs.readFileSync(PATHS.template, 'utf8');
 const html = tmpl
   .replace('__ROWS__', JSON.stringify(rows))
@@ -155,7 +163,11 @@ const html = tmpl
   .replace('__TESTDEFS__', JSON.stringify(testdefs))
   .replace('__SHACC__', metrics.sha_cc || 'n/a')
   .replace('__SHAPL__', metrics.sha_pl || 'n/a')
-  .replace('__GENERATED__', date);
+  .replace('__GENERATED__', date)
+  .replaceAll('__OG_DESC__', ogDesc.replace(/"/g, '&quot;'))
+  .replaceAll('__SITE_URL__', SITE_URL)
+  // The ?v= suffix makes unfurlers fetch the new image after each build instead of a cached one.
+  .replace('__OG_IMAGE__', hasOg || fs.existsSync(PATHS.og) ? `${SITE_URL}og.png?v=${date}` : '');
 fs.writeFileSync(PATHS.index, html);
 
 console.error(`[build] rows=${rows.length} automated_any=${point.automated_any}/${metrics.real} (complete=${metrics.complete} partial=${metrics.partial} undoc=${metrics.undoc_code}) -> index.html`);

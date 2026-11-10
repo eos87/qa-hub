@@ -10,6 +10,8 @@ export const REPOS_DIR = process.env.REPOS_DIR
   ? path.resolve(process.env.REPOS_DIR)
   : path.join(HUB, 'repos');
 
+export const SITE_URL = 'https://eos87.github.io/qa-hub/';
+
 export const CONFLUENCE_BASE = 'https://sofab.atlassian.net/wiki/spaces/SET/pages/';
 
 export const REPOS = [
@@ -39,6 +41,7 @@ export const PATHS = {
   index: path.join(HUB, 'index.html'),
   backlog: path.join(HUB, 'data', 'backlog.json'),
   testdefs: path.join(HUB, 'data', 'testdefs.json'),
+  og: path.join(HUB, 'og.png'),
 };
 
 // Sections whose cases belong to superdesk-planning; everything else routes to
