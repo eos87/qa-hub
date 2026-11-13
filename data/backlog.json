@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10",
- "count": 89,
+ "generated": "2026-11-13",
+ "count": 75,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -102,13 +102,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1313669234",
-   "title": "Accept suggestion",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669234",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1308524937",
    "title": "Add annotation",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
@@ -134,27 +127,6 @@
    "title": "Edit annotation",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834884",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669236",
-   "title": "Reject suggestion",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669236",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1313669232",
-   "title": "Toggle Suggestions Mode button",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1313669232",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1308524939",
-   "title": "Use suggestions mode",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524939",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -235,38 +207,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1310851193",
-   "title": "Add audio to Editor3",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851193",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1310851187",
-   "title": "Add image to Editor3",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851187",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1335328976",
    "title": "Add new custom datetime field",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1335328976",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1310851191",
-   "title": "Add video to Editor3",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851191",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1327759424",
-   "title": "Audio preview in Editor3",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759424",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -319,20 +263,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1327759422",
-   "title": "Image preview in Editor3",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759422",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1315934719",
-   "title": "Items count tab in Monitoring settings",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934719",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1308524959",
    "title": "Publish package (Nareg)",
    "section": "Full Functional testing samples",
@@ -354,13 +284,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1315934717",
-   "title": "Reorder sections tab in Monitoring settings",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315934717",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1308524953",
    "title": "Schedule publishing (Nareg)",
    "section": "Full Functional testing samples",
@@ -379,13 +302,6 @@
    "title": "Validate For Publish",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1332117823",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1327759426",
-   "title": "Video preview in Editor3",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759426",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -578,13 +494,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1318323011",
-   "title": "Configure personal Monitoring view in custom workspace",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318323011",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1308524887",
    "title": "Filter buttons",
    "section": "Workspace",
@@ -603,13 +512,6 @@
    "title": "Rearrange widgets",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524872",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1318323123",
-   "title": "Saved searches tab in Monitoring settings of custom workspace",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1318323123",
    "suggested_repo": "superdesk-client-core"
   },
   {
