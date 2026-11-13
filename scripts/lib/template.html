@@ -264,6 +264,11 @@ document.querySelectorAll('.lensbtns button').forEach(b=>b.onclick=()=>{
 });
 drawBar('manual');
 
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const fmtDay=(iso,yr)=>{const [y,m,dd]=iso.split('-'); return `${MON[+m-1]} ${+dd}${yr?', '+y:''}`;};
+const fmtYm=ym=>{const [y,m]=ym.split('-'); return `${MON[+m-1]} ${y}`;};
+const fmtMonth=d=>MON[d.getUTCMonth()]+(d.getUTCMonth()===0?' '+d.getUTCFullYear():'');
+
 // ---- automation burn-up: one line, cases automated climbing toward the full suite ----
 function drawProgress(){
  const el=document.getElementById('progress');
@@ -275,7 +280,10 @@ function drawProgress(){
  const auto=h=>h.complete+h.partial+h.undoc_code;
  const W=Math.min(1180, el.clientWidth||900), H=210, PadL=44, PadR=16, PadT=18, PadB=28;
  const n=pts.length;
- const X=i=> n===1 ? (PadL+W-PadR)/2 : PadL + i*(W-PadL-PadR)/(n-1);
+ // x is proportional to elapsed time, so a two-month gap looks like two months, not one step
+ const ts=pts.map(h=>Date.parse(h.date+'T00:00:00Z'));
+ const t0=ts[0], t1=ts[n-1], span=Math.max(t1-t0,1);
+ const X=i=> n===1 ? (PadL+W-PadR)/2 : PadL + (ts[i]-t0)/span*(W-PadL-PadR);
  const Y=c=> PadT + (1-c/goal)*(H-PadT-PadB);
  const grid=[0,0.25,0.5,0.75,1].map(f=>Math.round(goal*f)).map(c=>`<line class="pgrid" x1="${PadL}" y1="${Y(c)}" x2="${W-PadR}" y2="${Y(c)}"/><text class="plabel" x="6" y="${Y(c)+3}">${c}</text>`).join('');
  const goalLine=`<line x1="${PadL}" y1="${Y(goal).toFixed(1)}" x2="${W-PadR}" y2="${Y(goal).toFixed(1)}" style="stroke:var(--mut)" stroke-width="1" stroke-dasharray="4 4"/>`+
@@ -286,10 +294,20 @@ function drawProgress(){
    area=`<path d="${top} L${X(n-1).toFixed(1)},${Y(0).toFixed(1)} L${X(0).toFixed(1)},${Y(0).toFixed(1)} Z" style="fill:var(--ok);fill-opacity:.14"/>`;
    line=`<path d="${top}" style="fill:none;stroke:var(--ok)" stroke-width="2.5"/>`;
  }
- const dots=pts.map((h,i)=>`<circle cx="${X(i).toFixed(1)}" cy="${Y(auto(h)).toFixed(1)}" r="3.5" style="fill:var(--ok)" data-c="${auto(h)}" data-p="${Math.round(auto(h)/goal*100)}" data-d="${h.date}"/>`).join('');
- const showN = n<=12;
- const tops=pts.map((h,i)=> (showN||i===n-1) ? `<text x="${X(i).toFixed(1)}" y="${(Y(auto(h))-8).toFixed(1)}" text-anchor="middle" style="fill:var(--fg);font-size:11px;font-weight:600">${auto(h)}</text>`:'').join('');
- const labels=pts.map((h,i)=> (showN||i===0||i===n-1||i%Math.ceil(n/8)===0) ? `<text class="plabel" x="${X(i).toFixed(1)}" y="${H-9}" text-anchor="middle">${h.date.slice(5)}</text>`:'').join('');
+ const dots=pts.map((h,i)=>`<circle cx="${X(i).toFixed(1)}" cy="${Y(auto(h)).toFixed(1)}" r="3.5" style="fill:var(--ok)" data-c="${auto(h)}" data-p="${Math.round(auto(h)/goal*100)}" data-d="${fmtDay(h.date,true)}"/>`).join('');
+ // Value labels walk from the newest point back and skip any that would overlap one already drawn.
+ let lastX=Infinity; const keep=new Set();
+ for(let i=n-1;i>=0;i--){ if(lastX-X(i)>=34){keep.add(i); lastX=X(i);} }
+ const tops=pts.map((h,i)=> keep.has(i) ? `<text x="${X(i).toFixed(1)}" y="${(Y(auto(h))-8).toFixed(1)}" text-anchor="middle" style="fill:var(--fg);font-size:11px;font-weight:600">${auto(h)}</text>`:'').join('');
+ // Axis ticks at the start of each month, plus the first and latest snapshot dates.
+ const ticks=[];
+ const d=new Date(t0); d.setUTCDate(1); d.setUTCMonth(d.getUTCMonth()+1);
+ for(; d.getTime()<=t1; d.setUTCMonth(d.getUTCMonth()+1)) ticks.push({t:d.getTime(), txt:fmtMonth(d)});
+ const xt=t=> n===1 ? (PadL+W-PadR)/2 : PadL + (t-t0)/span*(W-PadL-PadR);
+ const ends=[{t:t0, txt:fmtDay(pts[0].date), a:'start'},{t:t1, txt:fmtDay(last.date), a:'end'}];
+ const clear=t=> ends.every(e=>Math.abs(xt(t)-xt(e.t))>=60);
+ const labels=[...ticks.filter(k=>clear(k.t)), ...(n>1?ends:[ends[1]])].map(k=>
+   `<line class="pgrid" x1="${xt(k.t).toFixed(1)}" y1="${H-PadB}" x2="${xt(k.t).toFixed(1)}" y2="${H-PadB+4}"/><text class="plabel" x="${xt(k.t).toFixed(1)}" y="${H-9}" text-anchor="${n>1&&k.a?k.a:'middle'}">${k.txt}</text>`).join('');
  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="border:1px solid var(--border);border-radius:10px;background:var(--panel)">${grid}${area}${goalLine}${line}${dots}${tops}${labels}</svg>`;
  const tip=document.getElementById('tip');
  el.querySelectorAll('circle').forEach(c=>{
@@ -316,10 +334,10 @@ function drawTestdefs(){
  const d=pts.map((p,i)=>`${i?'L':'M'}${X(i).toFixed(1)},${Y(p.tests).toFixed(1)}`).join(' ');
  const area=`<path d="${d} L${X(n-1).toFixed(1)},${Y(0).toFixed(1)} L${X(0).toFixed(1)},${Y(0).toFixed(1)} Z" style="fill:var(--accent);fill-opacity:.12"/>`;
  const line=`<path d="${d}" style="fill:none;stroke:var(--accent)" stroke-width="2.5"/>`;
- const dots=pts.map((p,i)=>`<circle cx="${X(i).toFixed(1)}" cy="${Y(p.tests).toFixed(1)}" r="3.2" style="fill:var(--accent)" data-c="${p.tests}" data-d="${p.date}"/>`).join('');
+ const dots=pts.map((p,i)=>`<circle cx="${X(i).toFixed(1)}" cy="${Y(p.tests).toFixed(1)}" r="3.2" style="fill:var(--accent)" data-c="${p.tests}" data-d="${fmtYm(p.date)}"/>`).join('');
  const tops=pts.map((p,i)=> (i===0 || p.tests!==pts[i-1].tests) ? `<text x="${X(i).toFixed(1)}" y="${(Y(p.tests)-7).toFixed(1)}" text-anchor="middle" style="fill:var(--fg);font-size:11px;font-weight:600">${p.tests}</text>`:'').join('');
  const step=Math.ceil(n/8);
- const labels=pts.map((p,i)=> (i%step===0||i===n-1) ? `<text class="plabel" x="${X(i).toFixed(1)}" y="${H-9}" text-anchor="middle">${p.date}</text>`:'').join('');
+ const labels=pts.map((p,i)=> (i%step===0||i===n-1) ? `<text class="plabel" x="${X(i).toFixed(1)}" y="${H-9}" text-anchor="${i===n-1?'end':'middle'}">${fmtYm(p.date)}</text>`:'').join('');
  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="border:1px solid var(--border);border-radius:10px;background:var(--panel)">${grid}${area}${line}${dots}${tops}${labels}</svg>`;
  const tip=document.getElementById('tip');
  el.querySelectorAll('circle').forEach(c=>{
