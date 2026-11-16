@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-13",
- "count": 75,
+ "generated": "2026-11-16",
+ "count": 58,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -102,31 +102,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1308524937",
-   "title": "Add annotation",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524937",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1327759495",
    "title": "Add link to Body Editor3 (automated)",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759495",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834886",
-   "title": "Delete annotation",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834886",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834884",
-   "title": "Edit annotation",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834884",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -151,24 +130,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1344443801",
-   "title": "Custom (other) Datetime",
-   "section": "Custom fields - Metadata management (Mikayel) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443801",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1344443851",
    "title": "Publish article that uses new custom fields in CP (Mikayel) - IMPORTANT for AUTOMATION",
    "section": "Customer-specific",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443851",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835081",
-   "title": "🤖 Edit URL field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835081",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -207,13 +172,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1335328976",
-   "title": "Add new custom datetime field",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1335328976",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1310851132",
    "title": "Create article with image in Feature media field",
    "section": "Full Functional testing samples",
@@ -235,13 +193,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1335328978",
-   "title": "Edit custom datetime field",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1335328978",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1311835229",
    "title": "Edit item in new window",
    "section": "Full Functional testing samples",
@@ -260,34 +211,6 @@
    "title": "Handling publish updates for Talpa (custom NINJS format with original ID)",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1335328782",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1308524959",
-   "title": "Publish package (Nareg)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524959",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1310851134",
-   "title": "Publishing depending on desk type",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851134",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1335328980",
-   "title": "Remove custom datetime field",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1335328980",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1308524953",
-   "title": "Schedule publishing (Nareg)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524953",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -316,13 +239,6 @@
    "title": "Correcting package with locked item",
    "section": "Locked items (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906312",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1308524847",
-   "title": "Lock item",
-   "section": "Locked items (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524847",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -417,13 +333,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1344444004",
-   "title": "Unpublishing - BEING AUTOMATED SDESK-7598",
-   "section": "Publishing (Nareg and Mikayel ) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444004",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1344444881",
    "title": "Assets",
    "section": "SAMS Module",
@@ -494,38 +403,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1308524887",
-   "title": "Filter buttons",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524887",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1308524865",
-   "title": "Open items icon",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524865",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1308524872",
-   "title": "Rearrange widgets",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524872",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1344443788",
    "title": "Send item to Personal space",
    "section": "Workspace",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443788",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1308524876",
-   "title": "World Clock Widget Settings",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524876",
    "suggested_repo": "superdesk-client-core"
   }
  ]
