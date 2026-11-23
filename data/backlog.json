@@ -1,22 +1,8 @@
 {
- "generated": "2026-11-16",
- "count": 58,
+ "generated": "2026-11-23",
+ "count": 38,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
-  {
-   "id": "1311834132",
-   "title": "Change public template to personal template",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834132",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1344443537",
-   "title": "Templates privilege",
-   "section": "Already automated",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443537",
-   "suggested_repo": "superdesk-client-core"
-  },
   {
    "id": "1344445123",
    "title": "Assignments (PASS)",
@@ -60,20 +46,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1310294123",
-   "title": "Find and replace",
-   "section": "Authoring widgets (Nareg) - has failing test inside",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294123",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1310294120",
-   "title": "Info button",
-   "section": "Authoring widgets (Nareg) - has failing test inside",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294120",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1344444328",
    "title": "Macros - USD to CAD (Mikayel) - FAIL",
    "section": "Authoring widgets (Nareg) - has failing test inside",
@@ -88,45 +60,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1310294130",
-   "title": "Packages info",
-   "section": "Authoring widgets (Nareg) - has failing test inside",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294130",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1310294133",
-   "title": "Related items",
-   "section": "Authoring widgets (Nareg) - has failing test inside",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310294133",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1327759495",
    "title": "Add link to Body Editor3 (automated)",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759495",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1344444534",
-   "title": "Content expiry on desk level",
-   "section": "Content expiry (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444534",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1344444532",
-   "title": "Content expiry on Ingest",
-   "section": "Content expiry (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444532",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1344444536",
-   "title": "Content expiry on stage level",
-   "section": "Content expiry (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444536",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -172,41 +109,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1310851132",
-   "title": "Create article with image in Feature media field",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851132",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1310851155",
-   "title": "Create new article with a keyboard shortcut",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1310851155",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834332",
-   "title": "Desk routing",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834332",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835229",
-   "title": "Edit item in new window",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835229",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835225",
-   "title": "Export article",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835225",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1335328782",
    "title": "Handling publish updates for Talpa (custom NINJS format with original ID)",
    "section": "Full Functional testing samples",
@@ -218,13 +120,6 @@
    "title": "Unassign user from a desk",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834261",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1332117823",
-   "title": "Validate For Publish",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1332117823",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -326,13 +221,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1308524902",
-   "title": "Create new empty package",
-   "section": "Packages (Alice)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524902",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1344444881",
    "title": "Assets",
    "section": "SAMS Module",
@@ -368,13 +256,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1344444573",
-   "title": "Translations",
-   "section": "Translations",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444573",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1311834346",
    "title": "Disable user (PASS 01.11.22)",
    "section": "User management",
@@ -382,31 +263,10 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1311834348",
-   "title": "Edit user profile (pass 02.11)",
-   "section": "User management",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834348",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1311834243",
    "title": "Try to change user privileges at a currently logged-in user (pass 16.06)",
    "section": "User management",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834243",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834342",
-   "title": "User roles (pass 02.11)",
-   "section": "User management",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834342",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1344443788",
-   "title": "Send item to Personal space",
-   "section": "Workspace",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443788",
    "suggested_repo": "superdesk-client-core"
   }
  ]
