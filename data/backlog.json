@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-23",
- "count": 35,
+ "count": 31,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -74,13 +74,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1327759495",
-   "title": "Add link to Body Editor3 (automated)",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759495",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1344443851",
    "title": "Publish article that uses new custom fields in CP (Mikayel) - IMPORTANT for AUTOMATION",
    "section": "Customer-specific",
@@ -92,13 +85,6 @@
    "title": "Handling publish updates for Talpa (custom NINJS format with original ID)",
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1335328782",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834261",
-   "title": "Unassign user from a desk",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834261",
    "suggested_repo": "superdesk-client-core"
   },
   {
@@ -193,13 +179,6 @@
    "suggested_repo": "superdesk-client-core"
   },
   {
-   "id": "1315931669",
-   "title": "Copy and paste metadata",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931669",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
    "id": "1344444881",
    "title": "Assets",
    "section": "SAMS Module",
@@ -232,13 +211,6 @@
    "title": "Superdesk API test cases",
    "section": "Superdesk API test cases",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344444797",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311834346",
-   "title": "Disable user (PASS 01.11.22)",
-   "section": "User management",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834346",
    "suggested_repo": "superdesk-client-core"
   },
   {
