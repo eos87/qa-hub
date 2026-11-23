@@ -4,6 +4,9 @@ import {execFileSync} from 'node:child_process';
 import {REPOS, REPOS_DIR} from './config.mjs';
 
 const ANNOTATION = /type:\s*['"]confluence['"]\s*,\s*description:\s*['"](\d+)\s+(complete|partial)['"]/;
+// `description: \`${row.caseId} complete\`` inside a loop over a table of cases; the ids
+// are the `caseId: '<id>'` entries of the same file.
+const TEMPLATE_ANNOTATION = /type:\s*['"]confluence['"]\s*,\s*description:\s*`\$\{[\w.]+\.(\w+)\}\s+(complete|partial)`/;
 const TEST_DECL = /^\s*test(?:\.(?:only|skip|fixme))?\s*\(|^\s*test\.describe\s*\(/;
 const TITLE = /['"`]([^'"`]*)['"`]/;
 
@@ -19,6 +22,11 @@ function walk(dir) {
     }
   }
   return out;
+}
+
+function idsOfProperty(lines, prop) {
+  const re = new RegExp(`\\b${prop}:\\s*['"](\\d+)['"]`);
+  return [...new Set(lines.map((ln) => ln.match(re)?.[1]).filter(Boolean))];
 }
 
 // Pin GitHub links to a pushed commit. Locally HEAD may be an unmerged
@@ -61,17 +69,25 @@ export function parseAnnotations() {
       const lines = fs.readFileSync(file, 'utf8').split('\n');
       const relToRepo = path.relative(root, file);
       lines.forEach((ln, i) => {
-        const m = ln.match(ANNOTATION);
-        if (!m) return;
+        const literal = ln.match(ANNOTATION);
+        const template = literal ? null : ln.match(TEMPLATE_ANNOTATION);
+        if (!literal && !template) return;
+        const ids = literal ? [literal[1]] : idsOfProperty(lines, template[1]);
+        if (ids.length === 0) {
+          console.warn(`[parse] no ids found for ${relToRepo}:${i + 1}`);
+        }
+        const level = (literal ?? template)[2];
         const host = enclosingTest(lines, i);
-        annotations.push({
-          id: m[1],
-          level: m[2],
-          repo: r.name,
-          file: relToRepo,
-          line: host.line,
-          testTitle: host.title,
-        });
+        for (const id of ids) {
+          annotations.push({
+            id,
+            level,
+            repo: r.name,
+            file: relToRepo,
+            line: host.line,
+            testTitle: host.title,
+          });
+        }
       });
     }
   }
