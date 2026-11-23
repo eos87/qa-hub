@@ -1,8 +1,22 @@
 {
  "generated": "2026-11-23",
- "count": 33,
+ "count": 35,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
+  {
+   "id": "13207142405",
+   "title": "AAP v2.11 RC light smoke test",
+   "section": "AAP v2.11 RC light smoke test",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/13207142405",
+   "suggested_repo": "superdesk-client-core"
+  },
+  {
+   "id": "13197574170",
+   "title": "Already automated",
+   "section": "Already automated",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/13197574170",
+   "suggested_repo": "superdesk-client-core"
+  },
   {
    "id": "1344445123",
    "title": "Assignments (PASS)",
