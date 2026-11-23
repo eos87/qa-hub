@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-23",
- "count": 38,
+ "count": 33,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -71,41 +71,6 @@
    "title": "Publish article that uses new custom fields in CP (Mikayel) - IMPORTANT for AUTOMATION",
    "section": "Customer-specific",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1344443851",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835058",
-   "title": "🤖 Remove custom date field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835058",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835066",
-   "title": "🤖 Remove custom embed field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835066",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835048",
-   "title": "🤖 Remove custom text field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835048",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835074",
-   "title": "🤖 Remove related content field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835074",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835083",
-   "title": "🤖 Remove URL field (AUTOMATED)",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835083",
    "suggested_repo": "superdesk-client-core"
   },
   {
