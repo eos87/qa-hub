@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-23",
- "count": 31,
+ "generated": "2026-11-24",
+ "count": 20,
  "note": "not_automated documented QA cases = the automation backlog (suggested_repo is a hint; confirm from the feature)",
  "cases": [
   {
@@ -99,83 +99,6 @@
    "title": "Correcting package with locked item",
    "section": "Locked items (Alice)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1328906312",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1319929328",
-   "title": "Item marked for me appears in the Marked for me list",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929328",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1319929400",
-   "title": "Item unmarked from me disappears from the Marked for me list",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929400",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835658",
-   "title": "Mark a single item for user from the list view",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835658",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835666",
-   "title": "Mark item for other user from the list view via action menu",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835666",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835663",
-   "title": "Mark item for other user from the list view via user avatar",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835663",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835660",
-   "title": "Mark multiple items for user from the list view",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835660",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835685",
-   "title": "Mark open item for other user via editor toolbar",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835685",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1319929326",
-   "title": "Show content Marked for me",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929326",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835671",
-   "title": "Unmark item from user in the list view via action menu",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835671",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835668",
-   "title": "Unmark item from user in the list view via user avatar",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835668",
-   "suggested_repo": "superdesk-client-core"
-  },
-  {
-   "id": "1311835683",
-   "title": "Unmark open item from user via editor toolbar",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835683",
    "suggested_repo": "superdesk-client-core"
   },
   {
