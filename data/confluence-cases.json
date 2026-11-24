@@ -2,7 +2,7 @@
  "source": "confluence",
  "space": "SET",
  "root": "1308524760",
- "refreshed": "2026-11-23",
+ "refreshed": "2026-11-24",
  "cases": [
   {
    "id": "1310851139",
@@ -563,6 +563,15 @@
    "marked": true
   },
   {
+   "id": "1327759495",
+   "title": "🤖 Add link to Body Editor3 (AUTOMATED)",
+   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759495",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
    "id": "1313669361",
    "title": "🤖 Bold (AUTOMATED)",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
@@ -783,15 +792,6 @@
    "title": "🤖 Use suggestions mode (AUTOMATED)",
    "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1308524939",
-   "has_body": true,
-   "is_container": false,
-   "marked": true
-  },
-  {
-   "id": "1327759495",
-   "title": "Add link to Body Editor3 (automated)",
-   "section": "Body Editor3 (Alice, Mikayel, Maja) - IMPORTANT for AUTOMATION",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759495",
    "has_body": true,
    "is_container": false,
    "marked": true
@@ -1958,6 +1958,15 @@
    "marked": true
   },
   {
+   "id": "1311834261",
+   "title": "🤖 Unassign user from a desk (AUTOMATED)",
+   "section": "Full Functional testing samples",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834261",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
    "id": "1315931720",
    "title": "🤖 Unmark item from desk (AUTOMATED)",
    "section": "Full Functional testing samples",
@@ -2341,15 +2350,6 @@
    "section": "Full Functional testing samples",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834381",
    "has_body": false,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1311834261",
-   "title": "Unassign user from a desk",
-   "section": "Full Functional testing samples",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834261",
-   "has_body": true,
    "is_container": false,
    "marked": false
   },
@@ -2858,39 +2858,111 @@
    "marked": false
   },
   {
+   "id": "1319929328",
+   "title": "🤖 Item marked for me appears in the Marked for me list (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929328",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1319929400",
+   "title": "🤖 Item unmarked from me disappears from the Marked for me list (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929400",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835658",
+   "title": "🤖 Mark a single item for user from the list view (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835658",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835666",
+   "title": "🤖 Mark item for other user from the list view via action menu (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835666",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835663",
+   "title": "🤖 Mark item for other user from the list view via user avatar (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835663",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835660",
+   "title": "🤖 Mark multiple items for user from the list view (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835660",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835685",
+   "title": "🤖 Mark open item for other user via editor toolbar (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835685",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1319929326",
+   "title": "🤖 Show content Marked for me (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929326",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835671",
+   "title": "🤖 Unmark item from user in the list view via action menu (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835671",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835668",
+   "title": "🤖 Unmark item from user in the list view via user avatar (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835668",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1311835683",
+   "title": "🤖 Unmark open item from user via editor toolbar (AUTOMATED)",
+   "section": "Mark content for user (Nareg) not required by CP",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835683",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
    "id": "1319929322",
    "title": "Content Marked for me",
    "section": "Mark content for user (Nareg) not required by CP",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929322",
    "has_body": false,
    "is_container": true,
-   "marked": false
-  },
-  {
-   "id": "1319929328",
-   "title": "Item marked for me appears in the Marked for me list",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929328",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1319929400",
-   "title": "Item unmarked from me disappears from the Marked for me list",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929400",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1311835658",
-   "title": "Mark a single item for user from the list view",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835658",
-   "has_body": true,
-   "is_container": false,
    "marked": false
   },
   {
@@ -2921,51 +2993,6 @@
    "marked": false
   },
   {
-   "id": "1311835666",
-   "title": "Mark item for other user from the list view via action menu",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835666",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1311835663",
-   "title": "Mark item for other user from the list view via user avatar",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835663",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1311835660",
-   "title": "Mark multiple items for user from the list view",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835660",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1311835685",
-   "title": "Mark open item for other user via editor toolbar",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835685",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1319929326",
-   "title": "Show content Marked for me",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1319929326",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
    "id": "1311835677",
    "title": "Unmark from user",
    "section": "Mark content for user (Nareg) not required by CP",
@@ -2975,37 +3002,19 @@
    "marked": false
   },
   {
-   "id": "1311835671",
-   "title": "Unmark item from user in the list view via action menu",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835671",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1311835668",
-   "title": "Unmark item from user in the list view via user avatar",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835668",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1311835683",
-   "title": "Unmark open item from user via editor toolbar",
-   "section": "Mark content for user (Nareg) not required by CP",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311835683",
-   "has_body": true,
-   "is_container": false,
-   "marked": false
-  },
-  {
    "id": "1315931424",
    "title": "🤖 Adjust colours (AUTOMATED)",
    "section": "Media assets (Mikayel)",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931424",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
+   "id": "1315931669",
+   "title": "🤖 Copy and paste metadata (AUTOMATED)",
+   "section": "Media assets (Mikayel)",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931669",
    "has_body": true,
    "is_container": false,
    "marked": true
@@ -3179,15 +3188,6 @@
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1327759445",
    "has_body": false,
    "is_container": true,
-   "marked": false
-  },
-  {
-   "id": "1315931669",
-   "title": "Copy and paste metadata",
-   "section": "Media assets (Mikayel)",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1315931669",
-   "has_body": true,
-   "is_container": false,
    "marked": false
   },
   {
@@ -3812,6 +3812,15 @@
    "marked": false
   },
   {
+   "id": "1311834346",
+   "title": "🤖 Disable user (PASS 01.11.22) (AUTOMATED)",
+   "section": "User management",
+   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834346",
+   "has_body": true,
+   "is_container": false,
+   "marked": true
+  },
+  {
    "id": "1311834348",
    "title": "🤖 Edit user profile (pass 02.11) (AUTOMATED)",
    "section": "User management",
@@ -3835,15 +3844,6 @@
    "section": "User management",
    "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834344",
    "has_body": false,
-   "is_container": false,
-   "marked": false
-  },
-  {
-   "id": "1311834346",
-   "title": "Disable user (PASS 01.11.22)",
-   "section": "User management",
-   "url": "https://sofab.atlassian.net/wiki/spaces/SET/pages/1311834346",
-   "has_body": true,
    "is_container": false,
    "marked": false
   },
